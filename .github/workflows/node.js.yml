@@ -34,6 +34,5 @@ jobs:
     - name: Init new repo in dist folder and commit generated files
       run: |
         git add .
-        git config --local user.email "arnaud.poffe@neopixl.com"
-        git config --local user.name "GitHub Action"
         git commit -m 'deploy'
+        git push
