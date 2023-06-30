@@ -36,6 +36,7 @@ jobs:
         cd build
         git init
         git add .
+        git config --global --add safe.directory /github/workspace/build
         git config --local user.email "arnaud.poffe@neopixl.com"
         git config --local user.name "GitHub Action"
         git commit -m 'deploy'
