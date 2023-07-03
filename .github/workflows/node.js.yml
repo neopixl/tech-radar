@@ -38,9 +38,10 @@ jobs:
         git config --local user.name "GitHub Action"
         git commit -m 'deploy'
         git push 
-        cd build 
+
+    - name : deploy 
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: public
+        build_dir: public
       
