@@ -1,6 +1,6 @@
 ---
 title:      "Alamofire"
-ring:       endure
+ring:       assess
 quadrant:   languages-and-frameworks
 tags:       [network]
 ---

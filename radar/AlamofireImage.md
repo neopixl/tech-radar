@@ -1,6 +1,6 @@
 ---
 title:      "AlamofireImage"
-ring:       endure
+ring:       assess
 quadrant:   languages-and-frameworks
 tags:       [network, image]
 ---
