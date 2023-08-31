@@ -2,7 +2,7 @@
 title:      "SonarQube"
 ring:       adopt
 quadrant:   tools
-tags:       [code quality, Android, iOS, hybrid]
+tags:       [code quality, Android, iOS, React native]
 ---
 
 <p>outil d' <strong>analyse de code</strong>

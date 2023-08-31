@@ -1,7 +1,7 @@
 ---
 title:      "Alamofire"
 ring:       assess
-quadrant:   languages-and-frameworks
+quadrant:   iOS
 tags:       [network, iOS]
 ---
 

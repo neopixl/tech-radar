@@ -1,7 +1,7 @@
 ---
 title:      "MVVM"
 ring:       adopt
-quadrant:   methods-and-patterns
+quadrant:   tools
 tags:       [pattern, Android, iOS, hybrid]
 ---
 

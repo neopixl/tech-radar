@@ -1,7 +1,7 @@
 ---
 title:      "Apple Map"
 ring:       adopt
-quadrant:   tools
+quadrant:   iOS
 tags:       [cartograpy, iOS, hybrid]
 ---
 

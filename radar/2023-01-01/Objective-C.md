@@ -1,7 +1,7 @@
 ---
 title:      "Objective-C"
 ring:       adopt
-quadrant:   languages-and-frameworks
+quadrant:   iOS
 tags:       [language, iOS]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:      "MVP"
 ring:       assess
-quadrant:   methods-and-patterns
+quadrant:   tools
 tags:       [pattern, Android, iOS, hybrid]
 ---
 

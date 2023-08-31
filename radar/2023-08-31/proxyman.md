@@ -2,7 +2,7 @@
 title:      "Proxyman"
 ring:       trial
 quadrant:   tools
-tags:       [network, proxy, Android, iOS, hybrid]
+tags:       [network, proxy, Android, iOS, React native]
 ---
 
 <p>outil d' <strong>analyse des trames réseaux</strong>

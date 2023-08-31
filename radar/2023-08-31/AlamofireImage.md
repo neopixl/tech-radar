@@ -1,7 +1,7 @@
 ---
 title:      "AlamofireImage"
 ring:       assess
-quadrant:   languages-and-frameworks
+quadrant:   iOS
 tags:       [network, image, iOS]
 ---
 

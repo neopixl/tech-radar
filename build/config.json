@@ -1,8 +1,8 @@
 {
   "quadrants": {
-    "languages-and-frameworks": "Languages & Frameworks",
-    "methods-and-patterns": "Methods & Patterns",
-    "platforms-and-aoe-services": "Platforms & Operations",
+    "iOS": "iOS",
+    "Android": "Android",
+    "React": "React native",
     "tools": "Tools"
   },
   "rings": [
@@ -14,29 +14,29 @@
   "showEmptyRings": false,
   "homepageContent": "both",
   "quadrantsMap": {
-    "languages-and-frameworks": {
-      "colour": "#84BFA4",
-      "txtColour": "#444444",
+    "iOS": {
+      "colour": "#006ee6",
+      "txtColour": "black",
       "position": 1,
-      "description": "We've placed development languages (such as Scala or Golang) here, as well as more low-level development frameworks (such as Play or Symfony), which are useful for implementing custom software of all kinds."
+      "description": "All iOS technologies related as languages or framework"
     },
-    "methods-and-patterns": {
-      "colour": "#248EA6",
-      "txtColour": "white",
+    "Android": {
+      "colour": "#A4C639",
+      "txtColour": "black",
       "position": 2,
-      "description": "Here we put information on methods and patterns concerning development, continuous x, testing, organization, architecture, etc."
+      "description": "All Android technologies related as languages or framework"
     },
-    "platforms-and-aoe-services": {
-      "colour": "#F25244",
-      "txtColour": "#444444",
+    "React native": {
+      "colour": "#61DBFB",
+      "txtColour": "black",
       "position": 3,
-      "description": "This quadrant clusters technologies around the operation of software and infrastructure related platforms, tools and services."
+      "description": "All React technologies related as languages or framework"
     },
     "tools": {
       "colour": "#F2A25C",
       "txtColour": "white",
       "position": 4,
-      "description": "Here we put different software tools - from small helpers to bigger software projects"
+      "description": "Tools to develop, manage or debug"
     }
   },
   "chartConfig": {

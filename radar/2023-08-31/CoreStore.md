@@ -1,7 +1,7 @@
 ---
 title:      "CoreStore"
 ring:       hold
-quadrant:   languages-and-frameworks
+quadrant:   iOS
 tags:       [Database, iOS]
 ---
 
