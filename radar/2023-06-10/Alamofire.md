@@ -2,7 +2,7 @@
 title:      "Alamofire"
 ring:       assess
 quadrant:   languages-and-frameworks
-tags:       [network, iOS]
+tags:       [iOS]
 ---
 
 <p>framework <b>d'appels réseaux</b></p>
