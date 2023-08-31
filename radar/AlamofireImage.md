@@ -2,7 +2,7 @@
 title:      "AlamofireImage"
 ring:       assess
 quadrant:   languages-and-frameworks
-tags:       [network, image]
+tags:       [network, image, iOS]
 ---
 
 <p>framework de <b>récupération d'image en ligne</b></p>
