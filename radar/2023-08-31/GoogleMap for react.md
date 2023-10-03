@@ -1,8 +1,8 @@
 ---
-title:      "Google Map for React native"
-ring:       adopt
-quadrant:   React native
-tags:       [cartograpy, React native]
+title: "Google Map for React native"
+ring: adopt
+quadrant: React
+tags: [cartograpy, React native]
 ---
 
 <p><b>Google Map</b></p>

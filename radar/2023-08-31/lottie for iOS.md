@@ -1,8 +1,8 @@
 ---
-title:      "Lottie for iOS"
-ring:       adopt
-quadrant:   iOSs
-tags:       [Animations, iOS]
+title: "Lottie for iOS"
+ring: adopt
+quadrant: iOS
+tags: [Animations, iOS]
 ---
 
 <p>framework <b>d'animation</b></p>
