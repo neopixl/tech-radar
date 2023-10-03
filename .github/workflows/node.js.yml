@@ -5,13 +5,12 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,21 +19,20 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: 'npm i'
-    - run: 'npm i aoe_technology_radar'
-    - run: 'npx aoe_technology_radar-buildRadar'
-    - run: 'npx aoe_technology_radar-generateJson'
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: "npm i"
+      - run: "npm i aoe_technology_radar"
+      - run: "npm run build"
 
-    - name: Init new repo in dist folder and commit generated files
-      run: |
-        git add .
-        git config --local user.email "arnaud.poffe@neopixl.com"
-        git config --local user.name "GitHub Action"
-        git commit -m 'deploy'
-        git push 
+      - name: Init new repo in dist folder and commit generated files
+        run: |
+          git add .
+          git config --local user.email "arnaud.poffe@neopixl.com"
+          git config --local user.name "GitHub Action"
+          git commit -m 'deploy'
+          git push
