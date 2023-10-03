@@ -1,8 +1,8 @@
 ---
-title:      "Firebase Crashlytics for React native"
-ring:       adopt
-quadrant:   React native
-tags:       [debug, crash, React native]
+title: "Firebase Crashlytics for React native"
+ring: adopt
+quadrant: React
+tags: [debug, crash, React native]
 ---
 
 <p><b>Firebase Crashlytics</b></p>

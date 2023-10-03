@@ -1,8 +1,8 @@
 ---
-title:      "Firebase Remote Config for React native"
-ring:       adopt
-quadrant:   React native
-tags:       [config, React native]
+title: "Firebase Remote Config for React native"
+ring: adopt
+quadrant: React
+tags: [config, React native]
 ---
 
 <p><b>Firebase Remote Config</b></p>

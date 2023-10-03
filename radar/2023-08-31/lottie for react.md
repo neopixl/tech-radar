@@ -1,8 +1,8 @@
 ---
-title:      "Lottie for React native"
-ring:       adopt
-quadrant:   React native
-tags:       [Animations, React native]
+title: "Lottie for React native"
+ring: adopt
+quadrant: React
+tags: [Animations, React native]
 ---
 
 <p>framework <b>d'animation</b></p>
