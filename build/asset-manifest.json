@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.b3e8136c.css",
-    "main.js": "/build/static/js/main.ea2586d4.js",
-    "static/media/overview.svg": "/build/static/media/overview.2e91b190e821b00544b6.svg",
-    "static/media/question.svg": "/build/static/media/question.f49af21b0654459dca13.svg",
-    "static/media/search.svg": "/build/static/media/search.679b98f82ae5196a396b.svg",
-    "static/media/filter.svg": "/build/static/media/filter.410297804239c0ea9222.svg",
-    "static/media/pie.svg": "/build/static/media/pie.7ef18b270cc2509e9039.svg",
-    "index.html": "/build/index.html",
-    "static/media/back.svg": "/build/static/media/back.6d132c7e444cbbde9648.svg",
-    "static/media/close.svg": "/build/static/media/close.0a8d1a237ec4bf5218c6.svg",
-    "static/media/blip_new.svg": "/build/static/media/blip_new.a61075d6f6957f19d98c.svg",
-    "static/media/index.cjs": "/build/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "static/media/blip_changed.svg": "/build/static/media/blip_changed.08c84aef1cf47bb9bb1c.svg",
-    "static/media/blip_default.svg": "/build/static/media/blip_default.5e46a91d07200ba1acf3.svg"
+    "main.css": "/dist/static/css/main.1f084ee7.css",
+    "main.js": "/dist/static/js/main.500a9011.js",
+    "static/media/overview.svg": "/dist/static/media/overview.2e91b190e821b00544b6.svg",
+    "static/media/question.svg": "/dist/static/media/question.f49af21b0654459dca13.svg",
+    "static/media/search.svg": "/dist/static/media/search.679b98f82ae5196a396b.svg",
+    "static/media/filter.svg": "/dist/static/media/filter.410297804239c0ea9222.svg",
+    "static/media/pie.svg": "/dist/static/media/pie.7ef18b270cc2509e9039.svg",
+    "index.html": "/dist/index.html",
+    "static/media/back.svg": "/dist/static/media/back.6d132c7e444cbbde9648.svg",
+    "static/media/close.svg": "/dist/static/media/close.0a8d1a237ec4bf5218c6.svg",
+    "static/media/blip_new.svg": "/dist/static/media/blip_new.a61075d6f6957f19d98c.svg",
+    "static/media/index.cjs": "/dist/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "static/media/blip_changed.svg": "/dist/static/media/blip_changed.08c84aef1cf47bb9bb1c.svg",
+    "static/media/blip_default.svg": "/dist/static/media/blip_default.5e46a91d07200ba1acf3.svg"
   },
   "entrypoints": [
-    "static/css/main.b3e8136c.css",
-    "static/js/main.ea2586d4.js"
+    "static/css/main.1f084ee7.css",
+    "static/js/main.500a9011.js"
   ]
 }
