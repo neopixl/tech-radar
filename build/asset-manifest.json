@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/build/static/css/main.b3e8136c.css",
-    "main.js": "/build/static/js/main.ef06db2f.js",
+    "main.js": "/build/static/js/main.ea2586d4.js",
     "static/media/overview.svg": "/build/static/media/overview.2e91b190e821b00544b6.svg",
     "static/media/question.svg": "/build/static/media/question.f49af21b0654459dca13.svg",
     "static/media/search.svg": "/build/static/media/search.679b98f82ae5196a396b.svg",
@@ -17,6 +17,6 @@
   },
   "entrypoints": [
     "static/css/main.b3e8136c.css",
-    "static/js/main.ef06db2f.js"
+    "static/js/main.ea2586d4.js"
   ]
 }
