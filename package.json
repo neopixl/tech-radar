@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": ".",
+  "homepage": "./",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "PUBLIC_URL=/ npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
+    "build": "PUBLIC_URL=/dist npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
     "build-localhost": "PUBLIC_URL=/build npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
     "start": "npm run start:server",
     "start:server": "python3 -m http.server 8080"
