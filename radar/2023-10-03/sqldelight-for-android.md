@@ -1,6 +1,6 @@
 ---
 title: "SQLDelight for Android"
-ring: adopt
+ring: assess
 quadrant: Android
 tags: [cartography, Android]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Livedata for Android"
-ring: adopt
+ring: hold
 quadrant: Android
 tags: [Android]
 ---

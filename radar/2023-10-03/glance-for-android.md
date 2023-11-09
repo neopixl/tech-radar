@@ -1,6 +1,6 @@
 ---
 title: "Glance for Android"
-ring: adopt
+ring: assess
 quadrant: Android
 tags: [Widget, Android]
 ---

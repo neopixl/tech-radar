@@ -1,6 +1,6 @@
 ---
 title: "Dagger for Android"
-ring: adopt
+ring: hold
 quadrant: Android
 tags: [DI, Android]
 ---
