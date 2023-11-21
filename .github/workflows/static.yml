@@ -41,6 +41,7 @@ jobs:
         with:
           name: tech-radar
           path: build/
+          retention-days: 1
   deploy:
     needs: build
     environment:
@@ -51,15 +52,13 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: tech-radar
-      - run: ls -lsa
-      - run: ls -lsa tech-radar/
-      #- name: Setup Pages
-      #  uses: actions/configure-pages@v3
-      #- name: Upload artifact
-      #  uses: actions/upload-pages-artifact@v1
-      #  with:
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
           # Upload entire repository
-      #    path: ./tech-radar
-      #- name: Deploy to GitHub Pages
-      #  id: deployment
-      #  uses: actions/deploy-pages@v2
+          path: ./
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
