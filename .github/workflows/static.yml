@@ -51,13 +51,15 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: tech-radar
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
+      - run: ls -lsa
+      - run: ls -lsa tech-radar/
+      #- name: Setup Pages
+      #  uses: actions/configure-pages@v3
+      #- name: Upload artifact
+      #  uses: actions/upload-pages-artifact@v1
+      #  with:
           # Upload entire repository
-          path: ./tech-radar
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      #    path: ./tech-radar
+      #- name: Deploy to GitHub Pages
+      #  id: deployment
+      #  uses: actions/deploy-pages@v2
