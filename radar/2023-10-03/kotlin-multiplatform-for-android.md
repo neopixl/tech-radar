@@ -1,6 +1,6 @@
 ---
 title: "KMM for Android"
-ring: adopt
+ring: trial
 quadrant: Android
 tags: [Kotlin, Android]
 ---
