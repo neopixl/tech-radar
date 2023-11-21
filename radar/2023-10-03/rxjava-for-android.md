@@ -17,3 +17,5 @@ tags: [Android]
 <li>Gestion des erreurs</li>
 <li>Création de vues réactives</li>
 </ul>
+
+<p>Nous déconseillons l'utilisation de RXJava. Les coroutines et les flow sont à privilégier.</p>
