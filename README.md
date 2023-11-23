@@ -11,7 +11,7 @@ In radar folder, just add a new md file with this format :
     quadrant: see quadrants section
     tags: every tag you want into []
     ---
-    your description
+    your description in html
 
 ## quadrants
     languages-and-frameworks
