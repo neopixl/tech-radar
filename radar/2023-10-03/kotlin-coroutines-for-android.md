@@ -6,23 +6,23 @@ tags: [Android]
 ---
 
 <p>
-Les coroutines peuvent être utilisées pour implémenter une variété de tâches asynchrones, telles que :
+Coroutines can be used to implement a variety of asynchronous tasks, such as:
 
-- Opérations de réseau
-- Requêtes de base de données
-- E/S de fichiers
-- Calculs de longue durée
+- Network Operations
+- Database queries
+- File I/O
+- Long-term calculations
 </p>
 
 <p>
-Les coroutines sont également utiles pour implémenter des modèles de concurrence, tels que producteur-consommateur et acteurs.
+Coroutines are also useful for implementing concurrency models, such as producer-consumer and actors.
 </p>
 
-<h2>Avantages des coroutines Kotlin</h2>
+<h2>Advantages of Kotlin coroutines</h2>
 
 <ul>
-<li>Légères : Les coroutines ne nécessitent pas de pile distincte pour chaque coroutine, ce qui les rend beaucoup plus efficaces que les threads.</li>
-<li>Concurrentes : Les coroutines peuvent s'exécuter simultanément, ce qui peut améliorer les performances de votre application.</li>
-<li>Expressives : Les coroutines fournissent un moyen concis et expressif d'écrire du code asynchrone.</li>
-<li>Faciles à utiliser : Les coroutines sont faciles à utiliser, même pour les débutants.</li>
+<li>Lightweight: Coroutines do not require a separate stack for each coroutine, making them much more efficient than threads.</li>
+<li>Concurrent: Coroutines can run concurrently, which can improve the performance of your application.</li>
+<li>Expressive: Coroutines provide a concise and expressive way to write asynchronous code.</li>
+<li>Easy to use: Coroutines are easy to use, even for beginners.</li>
 </ul>

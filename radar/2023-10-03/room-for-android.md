@@ -5,10 +5,10 @@ quadrant: Android
 tags: [Android]
 ---
 
-Room est une bibliothèque de persistance pour Android qui permet aux développeurs de créer des bases de données SQLite de manière simple et efficace. Elle fournit une abstraction sur SQLite, ce qui signifie que les développeurs n'ont pas besoin de connaître les détails de la manipulation de SQLite pour créer et gérer des bases de données.
+Room is a persistence library for Android that allows developers to create SQLite databases easily and efficiently. It provides an abstraction over SQLite, meaning developers do not need to know the details of manipulating SQLite to create and manage databases.
 
-Room offre une variété de fonctionnalités pour faciliter la création et la gestion de bases de données SQLite, notamment :
+Room offers a variety of features to make creating and managing SQLite databases easier, including:
 
-<li>Gestion des migrations : Room gère automatiquement les migrations de base de données, ce qui permet aux développeurs de mettre à jour leurs bases de données sans avoir à perdre de données.
-<li>Intégration avec LiveData : Room s'intègre avec LiveData, ce qui permet aux développeurs d'afficher les données de la base de données dans leur interface utilisateur de manière réactive.
-<li>Intégration avec ViewModel : Room s'intègre avec ViewModel, ce qui permet aux développeurs de conserver les données de la base de données en mémoire pendant la durée de vie de l'activité ou de la coroutine.
+<li>Migration Management: Room automatically manages database migrations, allowing developers to update their databases without having to lose data.
+<li>Integration with LiveData: Room integrates with LiveData, allowing developers to display database data in their user interface in a responsive manner.
+<li>Integration with ViewModel: Room integrates with ViewModel, allowing developers to keep database data in memory for the life of the activity or coroutine.

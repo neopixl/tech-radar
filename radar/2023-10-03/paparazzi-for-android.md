@@ -6,7 +6,7 @@ tags: [testing, Android]
 ---
 
 <p><b>Paparazzi</b></p>
-<em><a href="https://cashapp.github.io/paparazzi/">Documentation officielle</a></em>
-<p>Paparazzi est une bibliothèque Android qui permet de rendre des captures d'écran de vos applications sans avoir à les déployer sur un appareil physique. Cela peut être utile pour le débogage, le développement et le test.</p>
+<em><a href="https://cashapp.github.io/paparazzi/">Official documentation</a></em>
+<p>Paparazzi is an Android library that allows you to render screenshots of your apps without having to deploy them to a physical device. This can be useful for debugging, development and testing.</p>
 
-<p>Paparazzi fonctionne en capturant l'écran de votre appareil Android à l'aide de l'API View.captureViewScreenshot(). Cette API prend en charge la capture d'écran de vues individuelles ou de l'intégralité de l'écran.</p>
+<p>Paparazzi works by capturing the screen of your Android device using the View.captureViewScreenshot() API. This API supports screenshot of individual views or the entire screen.</p>

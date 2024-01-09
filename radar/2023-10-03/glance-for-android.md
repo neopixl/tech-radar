@@ -5,6 +5,6 @@ quadrant: Android
 tags: [Widget, Android]
 ---
 
-<p>Jetpack Glance est un framework construit sur le runtime Jetpack Compose qui vous permet de développer et de concevoir des widgets d'application à l'aide d'API Kotlin. Les widgets d'application sont des vues d'application miniatures qui peuvent être intégrées à d'autres applications et recevoir des mises à jour périodiques.</p>
+<p>Jetpack Glance is a framework built on the Jetpack Compose runtime that allows you to develop and design application widgets using Kotlin APIs. App widgets are thumbnail app views that can be integrated with other apps and receive periodic updates.</p>
 
-<p>Glance fournit un ensemble de composables pour vous aider à créer rapidement des widgets réactifs pour l'écran d'accueil avec moins de code.</p>
+<p>Glance provides a set of composables to help you quickly create responsive home screen widgets with less code.</p>

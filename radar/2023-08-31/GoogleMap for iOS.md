@@ -1,11 +1,10 @@
 ---
-title:      "Google Map for iOS"
-ring:       adopt
-quadrant:   iOS
-tags:       [cartograpy, iOS]
+title: "Google Map for iOS"
+ring: adopt
+quadrant: iOS
+tags: [cartograpy, iOS]
 ---
 
 <p><b>Google Map</b></p>
-<em><a href="https://developers.google.com/maps/documentation/ios-sdk/config?hl=fr">Documentation officiel</a></em>
-<p> Il est préférable d'utiliser les outils natif des OS. Donc google map sera le plus recommandé sur Android mais sur iOS on lui préferera Apple Map
-</p>
+<em><a href="https://developers.google.com/maps/documentation/ios-sdk/config?hl=fr">Official documentation</a></em>
+<p> It is preferable to use the native OS tools. So Google Map will be the most recommended on Android but on iOS we will prefer Apple Map</p>

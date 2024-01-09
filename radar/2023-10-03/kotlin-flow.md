@@ -5,8 +5,8 @@ quadrant: Android
 tags: [Android, Kotlin]
 ---
 
-<p>Les flows en Kotlin sont des flux de données asynchrones qui émettent des valeurs séquentiellement. Ils sont construits sur les coroutines et peuvent être utilisés pour représenter des données provenant de sources diverses, telles que des appels réseau, des bases de données ou des événements.</p>
+<p>Flows in Kotlin are asynchronous data streams that emit values sequentially. They are built on top of coroutines and can be used to represent data from various sources, such as network calls, databases, or events.</p>
 
-<h2>Création de flows</h2>
+<h2>Creating flows</h2>
 
-<p>Les flows sont créés à l'aide de la fonction flow(). Cette fonction prend en entrée un bloc de code suspendable qui émet les valeurs du flow.</p>
+<p>Flows are created using the flow() function. This function takes as input a block of suspendable code which emits the flow values.</p>

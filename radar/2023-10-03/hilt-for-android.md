@@ -5,10 +5,10 @@ quadrant: Android
 tags: [DI, Android]
 ---
 
-<p>Hilt est une bibliothèque d'injection de dépendances pour Android qui permet de réduire le code récurrent de l'injection de dépendances manuelle dans votre projet. Hilt est basé sur Dagger, une bibliothèque d'injection de dépendances populaire.</p>
+<p>Hilt is a dependency injection library for Android that helps reduce the recurring code of manual dependency injection in your project. Hilt is based on Dagger, a popular dependency injection library.</p>
 
 <ul>
-  <li>Réduction du code : Hilt automatise la création et la gestion des instances de dépendances, ce qui réduit le code récurrent que vous devez écrire.</li>
-  <li>Simplicité : Hilt est une bibliothèque simple à utiliser. Vous n'avez pas besoin de connaître les détails de fonctionnement de Dagger pour utiliser Hilt.</li>
-  <li>Sécurité : Hilt garantit que vos dépendances sont injectées en toute sécurité, même lorsque le cycle de vie de votre application change.</li>
+   <li>Code reduction: Hilt automates the creation and management of dependency instances, reducing the recurring code you need to write.</li>
+   <li>Simplicity: Hilt is a simple to use library. You do not need to know the details of how Dagger works to use Hilt.</li>
+   <li>Security: Hilt ensures that your dependencies are injected securely, even when your application lifecycle changes.</li>
 </ul>

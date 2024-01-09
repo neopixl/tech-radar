@@ -5,14 +5,14 @@ quadrant: Android
 tags: [cartography, Android]
 ---
 
-<p>Retrofit est une bibliothèque de réseaux pour Android qui permet aux développeurs de créer des API REST de manière simple et efficace. Elle fournit une abstraction sur HTTP, ce qui signifie que les développeurs n'ont pas besoin de connaître les détails de la manipulation d'HTTP pour créer et gérer des API REST.</p>
+<p>Retrofit is a networking library for Android that allows developers to create REST APIs simply and efficiently. It provides abstraction over HTTP, meaning developers do not need to know the details of manipulating HTTP to create and manage REST APIs.</p>
 
-<p>Retrofit offre une variété de fonctionnalités pour faciliter la création et la gestion d'API REST, notamment :</p>
+<p>Retrofit offers a variety of features to make creating and managing REST APIs easier, including:</p>
 
 <ul>
-<li>Gestion des requêtes</li>
-<li>Gestion des réponses</li>
-<li>Intégration avec Gson</li>
+<li>Request management</li>
+<li>Response management</li>
+<li>Integration with Gson</li>
 </ul>
 
-<p>Pour utiliser Retrofit, les développeurs doivent créer une interface de service. L'interface de service définit les méthodes qui seront utilisées pour accéder aux ressources de l'API REST.</p>
+<p>To use Retrofit, developers must create a service interface. The service interface defines the methods that will be used to access REST API resources.</p>

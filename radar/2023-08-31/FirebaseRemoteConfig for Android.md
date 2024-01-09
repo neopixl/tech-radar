@@ -7,9 +7,8 @@ tags: [config, Android]
 
 <p><b>Firebase Remote Config</b></p>
 <em>
-<a href="https://firebase.google.com/products/remote-config">Présentation du produit</a> </br>
-<a href="https://firebase.google.com/docs/remote-config/get-started?hl=fr&platform=android">Documentation officielle</a> </br>
-<a href="https://neopixl.atlassian.net/wiki/spaces/DEVCENTER/pages/496238643/Firebase+remote+config">Documentation Neopixl</a> 
+<a href="https://firebase.google.com/products/remote-config">Product presentation</a> </br>
+<a href="https://firebase.google.com/docs/remote-config/get-started?hl=fr&platform=android">Offical documentation</a> </br>
 </em>
 <p>RGPD Compliant</p>
-<p> Permet l'envoi de variable simple ou de json complet à une application en fonction de paramètres comme la version, le build variant / scheme ou même encore des données d'analytics.</p>
+<p> Allows sending a simple variable or complete json to an application based on parameters such as version, build variant / scheme or even analytics data.</p>

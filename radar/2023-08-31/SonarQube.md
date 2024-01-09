@@ -1,11 +1,11 @@
 ---
-title:      "SonarQube"
-ring:       adopt
-quadrant:   tools
-tags:       [code quality, Android, iOS, React native]
+title: "SonarQube"
+ring: adopt
+quadrant: tools
+tags: [code quality, Android, iOS, React native]
 ---
 
-<p>outil d' <strong>analyse de code</strong>
+<p>Code analysis tool</p>
 <em><a href="https://sonar.smile.fr/projects/favorite">lien de l'outil</a></em>
-<p> Permet d'analyser le code sur base d'un linter et de referencer des codes smell, des problèmes de duplication de code ou encore des vulnérabilités
+<p> Allows you to analyze the code based on a linter and reference smell codes, code duplication problems or even vulnerabilities
 </p>

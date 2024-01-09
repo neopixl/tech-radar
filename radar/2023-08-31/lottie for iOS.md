@@ -5,9 +5,9 @@ quadrant: iOS
 tags: [Animations, iOS]
 ---
 
-<p>framework <b>d'animation</b></p>
-<p><a href="https://github.com/airbnb/lottie-ios">Lien vers git iOS</a> <br /> <br />
-Permet de jouer des animations JSON
-<a href="https://lottiefiles.com/">exemple d'animation ici</a>
-avec un compte cela permet également de tester les animations fournit par les designers pour verifier le rendu
+<p>Animation framework</p>
+<p><a href="https://github.com/airbnb/lottie-ios">Link to the iOS Github repo</a> <br /> <br />
+Allows you to play JSON animations
+<a href="https://lottiefiles.com/">animation example here</a>
+with an account this also allows you to test the animations provided by the designers to check the rendering.
 </p>

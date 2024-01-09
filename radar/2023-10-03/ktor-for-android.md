@@ -5,15 +5,15 @@ quadrant: Android
 tags: [network, Android]
 ---
 
-<p><b>Ktor client</b></p>
-<em><a href="https://ktor.io/">Documentation officielle</a></em>
-<p> Ktor est un outil qui permet de créer des applications client et serveur asynchrones. 
-La librairie est Open Source.
+<p><b>Ktor customer</b></p>
+<em><a href="https://ktor.io/">Official documentation</a></em>
+<p> Ktor is a tool for creating asynchronous client and server applications.
+The library is Open Source.
 </p>
 <p> </p>
-Les avantages de Ktor sont :
+The advantages of Ktor are:
 <ul>
-    <li>Construit pour fonctionner directement avec Kotlin et les coroutines</li>
-    <li>La librairie est légère et flexible permettant une intégration aisée tout en permettant une forte personnalisation</li>
-    <li>Construite et maintenue par JetBrains, les créateurs de Kotlin ce qui garanti un support et des outils de qualité </li>
+     <li>Built to work directly with Kotlin and coroutines</li>
+     <li>The library is light and flexible allowing easy integration while allowing strong customization</li>
+     <li>Built and maintained by JetBrains, the creators of Kotlin, which guarantees quality support and tools </li>
 </ul>
