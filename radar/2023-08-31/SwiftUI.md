@@ -7,6 +7,7 @@ tags: [language, iOS]
 
 <p><b>Development language</b></p>
 <em><a href="https://developer.apple.com/xcode/swiftui/">Apple Documentation</a></em>
-<p>New Apple development language. For the moment the language is starting to be stable in iOS 15 minimum.
-in iOS14 many points must be bypassed for proper functioning and links must be made with uikit. iOS 16 also brings new non-retro compatible features.
+<p>Apple's officiel development language. We consider this language to be usable and stable from iOS 15 onwards.
+On iOS 14, many aspects must be bypassed or worked around for proper functioning and links must be made with UIKit. 
+iOS 16 also brings new non-retro compatible features.
 </p>
