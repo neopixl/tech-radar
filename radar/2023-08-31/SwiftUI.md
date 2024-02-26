@@ -1,12 +1,13 @@
 ---
-title:      "SwiftUI"
-ring:       adopt
-quadrant:   iOS
-tags:       [language, iOS]
+title: "SwiftUI"
+ring: adopt
+quadrant: iOS
+tags: [language, iOS]
 ---
 
-<p><b>Language de developpement</b></p>
-<em><a href="https://developer.apple.com/xcode/swiftui/">Documentation Apple</a></em>
-<p>Nouveau language de developpement Apple. Pour le moment le language commence à être stable en iOS 15 minimum.
-en iOS14 beaucoup de point sont à contourner pour un bon fonctionnement et des liens sont a faire avec uikit. iOS 16 apporte également des nouveautés non rétro compatible.
+<p><b>Development language</b></p>
+<em><a href="https://developer.apple.com/xcode/swiftui/">Apple Documentation</a></em>
+<p>Apple's officiel development language. We consider this language to be usable and stable from iOS 15 onwards.
+On iOS 14, many aspects must be bypassed or worked around for proper functioning and links must be made with UIKit. 
+iOS 16 also brings new non-retro compatible features.
 </p>

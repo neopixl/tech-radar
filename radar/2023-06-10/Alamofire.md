@@ -1,11 +1,12 @@
 ---
-title:      "Alamofire"
-ring:       assess
-quadrant:   iOS
-tags:       [iOS]
+title: "Alamofire"
+ring: assess
+quadrant: iOS
+tags: [iOS]
 ---
 
-<p>framework <b>d'appels réseaux</b></p>
-<p><a href="https://github.com/Alamofire/Alamofire">Lien vers git</a> <br /> <br />
-Peut toujours être utilisé dans les projets repris en tma ou d'ancien projet.<br />
-Il serait mieux cependant d'utiliser le language natif pour faire des appels réseaux : <a href="https://developer.apple.com/documentation/foundation/urlrequest">doc Apple</a></p>
+<p>Network calls framework</p>
+<p><a href="https://github.com/Alamofire/Alamofire">Link to Github</a> <br /> <br />
+Can still be found in legacy projects.<br />
+However, we strongly recommend to use the native language to make network calls: <a href="https://developer.apple.com/documentation/foundation/urlrequest">Apple doc</a></p>
+​

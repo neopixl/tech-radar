@@ -5,17 +5,17 @@ quadrant: Android
 tags: [Android]
 ---
 
-<h1>RXJava pour Android</h1>
+<h1>RXJava for Android</h1>
 
-<p>RXJava est une bibliothèque de programmation réactive pour Java et Kotlin. Elle permet aux développeurs d'écrire des applications qui réagissent aux changements de données de manière asynchrone et non bloquante.</p>
+<p>RXJava is a reactive programming library for Java and Kotlin. It allows developers to write applications that respond to data changes in an asynchronous, non-blocking manner.</p>
 
-<p>RXJava est une bibliothèque puissante qui peut être utilisée pour une variété de tâches, notamment :</p>
+<p>RXJava is a powerful library that can be used for a variety of tasks, including:</p>
 
 <ul>
-<li>Création d'observables</li>
-<li>Transformation d'observables</li>
-<li>Gestion des erreurs</li>
-<li>Création de vues réactives</li>
+<li>Creating observables</li>
+<li>Transformation of observables</li>
+<li>Error handling</li>
+<li>Creating responsive views</li>
 </ul>
 
-<p>Nous déconseillons l'utilisation de RXJava. Les coroutines et les flow sont à privilégier.</p>
+<p>We do not recommend the use of RXJava. Coroutines and flows are preferred.</p>

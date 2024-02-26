@@ -5,6 +5,6 @@ quadrant: Android
 tags: [Kotlin, Android]
 ---
 
-<p>Kotlin Multiplatform (KMP) est un framework qui permet de développer des applications multiplateformes en Kotlin. Il permet aux développeurs de partager du code Kotlin entre des applications Android, iOS, macOS, Linux, Windows et Web.</p>
+<p>Kotlin Multiplatform (KMP) is a framework that allows you to develop cross-platform applications in Kotlin. It allows developers to share Kotlin code between Android, iOS, macOS, Linux, Windows and web applications.</p>
 
-<p>KMP fonctionne en générant du code natif pour chaque plateforme cible. Cela permet aux applications KMP d'offrir des performances et une expérience utilisateur comparables aux applications natives.</p>
+<p>KMP works by generating native code for each target platform. This allows KMP apps to deliver performance and user experience comparable to native apps.</p>

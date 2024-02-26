@@ -5,10 +5,10 @@ quadrant: Android
 tags: [Gradle, Android]
 ---
 
-<p>Gradle KTS est une version de Gradle écrite en Kotlin. Il offre un certain nombre d'avantages par rapport à la version Groovy de Gradle, notamment :</p>
+<p>Gradle KTS is a version of Gradle written in Kotlin. It offers a number of advantages over the Groovy version of Gradle, including:</p>
 
-<b>Un code plus clair et plus concis</b> : Le code Kotlin est plus clair et plus concis que le code Groovy. Cela rend le code plus facile à lire et à comprendre.
-<b>Une meilleure prise en charge des fonctionnalités modernes de Kotlin</b> : Gradle KTS prend en charge les fonctionnalités modernes de Kotlin, telles que les propriétés, les fonctions d'extension et les types nullable.
-<b>Une meilleure intégration avec les autres outils Kotlin</b> : Gradle KTS s'intègre bien avec les autres outils Kotlin, tels que les IDE Kotlin et les compilateurs Kotlin.
+<b>Clearer and more concise code</b>: Kotlin code is clearer and more concise than Groovy code. This makes the code easier to read and understand.
+<b>Better support for modern Kotlin features</b>: Gradle KTS supports modern Kotlin features, such as properties, extension functions, and nullable types.
+<b>Better integration with other Kotlin tools</b>: Gradle KTS integrates well with other Kotlin tools, such as Kotlin IDEs and Kotlin compilers.
 
-<p>Gradle KTS est le choix recommandé pour le développement d'applications Android. Il est inclus par défaut dans Android Studio depuis la version 4.2.</p>
+<p>Gradle KTS is the recommended choice for Android application development. It is included by default in Android Studio since version 4.2.</p>

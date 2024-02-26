@@ -5,11 +5,11 @@ quadrant: Android
 tags: [UI, Android]
 ---
 
-<p>Jetpack Compose est un kit d'outils de création d'interface utilisateur (UI) déclarative pour Android. Il est conçu pour simplifier et accélérer le développement d'applications Android.</p>
+<p>Jetpack Compose is a declarative user interface (UI) creation toolkit for Android. It is designed to simplify and accelerate Android application development.</p>
 
-<p>Jetpack Compose est basé sur le concept de composition. Cela signifie que les vues sont créées en combinant des composants plus petits. Cette approche est plus simple et plus efficace que la création d'interfaces utilisateur à l'aide de code XML.</p>
+<p>Jetpack Compose is based on the concept of composition. This means that views are created by combining smaller components. This approach is simpler and more efficient than creating user interfaces using XML code.</p>
 
-<p>Jetpack Compose prend en charge une large gamme de composants d'interface utilisateur, notamment :</p>
+<p>Jetpack Compose supports a wide range of user interface components, including:</p>
 
-<b>Des éléments de base tels que des boutons, des listes et des images</b>
-<b>Des composants plus avancés tels que des graphiques, des animations et des effets</b>
+<b>Basic elements such as buttons, lists and images</b>
+<b>More advanced components such as graphics, animations and effects</b>

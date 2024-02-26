@@ -1,11 +1,11 @@
 ---
-title:      "Swift"
-ring:       adopt
-quadrant:   iOS
-tags:       [language, iOS]
+title: "Swift"
+ring: adopt
+quadrant: iOS
+tags: [language, iOS]
 ---
 
-<p><b>Language de developpement</b></p>
-<em><a href="https://developer.apple.com/swift/">Documentation Apple</a></em>
-<p>Language de developpement Apple principal
+<p><b>Development language</b></p>
+<em><a href="https://developer.apple.com/swift/">Apple documentation</a></em>
+<p>Core Apple Development Language
 </p>

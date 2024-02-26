@@ -1,15 +1,13 @@
 ---
-title:      "Proxyman"
-ring:       trial
-quadrant:   tools
-tags:       [network, proxy, Android, iOS, React native]
+title: "Proxyman"
+ring: trial
+quadrant: tools
+tags: [network, proxy, Android, iOS, React native]
 ---
 
-<p>outil d' <strong>analyse des trames réseaux</strong>
-<em><a href="https://www.charlesproxy.com/documentation/welcome/">lien de l'outil</a></em>
-<p> Permet via proxy de voir et analyser les trames réseaux d'un appareil.<br />
-A l'étude pour un potentiel remplaçant à Charles <br />
-l'outil est plus graphique et agréable à l'utilisation <br />
-Possibilité de l'utiliser via un vpn sur le mobile grâce à un outil comme openVPN. <br />
-<a href="https://neopixl.atlassian.net/wiki/spaces/DEVCENTER/pages/497516547/Open+VPN">Documentation neopixl</a><br />
-</p>
+<p>Tool for network frame analysis</strong>
+<em><a href="https://www.charlesproxy.com/documentation/welcome/">Tool link</a></em>
+<p> Allows via proxy to see and analyze the network frames of a device.<br />
+Under consideration for a potential replacement for Charles <br />
+the tool is more graphic and pleasant to use <br />
+Possibility of using it via a VPN on the mobile using a tool like openVPN. <br />
