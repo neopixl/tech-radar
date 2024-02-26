@@ -1,0 +1,63 @@
+{
+  "quadrants": {
+    "iOS": "iOS",
+    "Android": "Android",
+    "React": "React Native",
+    "tools": "Tools"
+  },
+  "rings": ["adopt", "trial", "assess", "hold"],
+  "showEmptyRings": false,
+  "homepageContent": "both",
+  "quadrantsMap": {
+    "iOS": {
+      "colour": "#FB8734",
+      "txtColour": "black",
+      "position": 1,
+      "description": "All iOS technologies related as languages or framework"
+    },
+    "Android": {
+      "colour": "#41C67A",
+      "txtColour": "black",
+      "position": 2,
+      "description": "All Android technologies related as languages or framework"
+    },
+    "React": {
+      "colour": "#3099F6",
+      "txtColour": "black",
+      "position": 3,
+      "description": "All React technologies related as languages or framework"
+    },
+    "tools": {
+      "colour": "#9399D2",
+      "txtColour": "white",
+      "position": 4,
+      "description": "Tools to develop, manage or debug"
+    }
+  },
+  "chartConfig": {
+    "size": 800,
+    "scale": [-16, 16],
+    "blipSize": 12,
+    "ringsAttributes": [
+      {
+        "radius": 8,
+        "arcWidth": 6
+      },
+      {
+        "radius": 11,
+        "arcWidth": 4
+      },
+      {
+        "radius": 14,
+        "arcWidth": 2
+      },
+      {
+        "radius": 16,
+        "arcWidth": 2
+      }
+    ]
+  },
+  "dateFormat": "MMMM YYYY"
+}
+
+
