@@ -1,0 +1,13 @@
+{
+  "socialLinks": [
+    { "href": "https://www.youtube.com/@neopixl", "iconName": "youtube" },
+    { "href": "hhttps://twitter.com/neopixl", "iconName": "twitter" },
+    {
+      "href": "https://www.linkedin.com/company/neopixl-sa/",
+      "iconName": "linkedIn"
+    },
+    { "href": "https://www.instagram.com/neopixl_sa/", "iconName": "instagram" }
+  ],
+  "legalInformationLink": "https://www.neopixl.com",
+  "footerFootnote": "Neopixl is a mobile devleopment agency based in Differdange, Luxembourg. 50 mobile experts are developping tomorrow's mobile apps."
+}

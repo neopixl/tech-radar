@@ -1,0 +1,142 @@
+html body .footer-end,
+html body .footer-end a {
+  color: var(--color-brand);
+}
+
+html body .search__field {
+  background: #120571;
+}
+
+html body .search__field::-webkit-input-placeholder {
+  color: var(--color-gray-light);
+}
+
+html body .search__field::placeholder {
+  color: var(--color-gray-light);
+}
+
+html body .search__field:focus {
+  background: #120571;
+}
+
+html body .ReactModal__Overlay {
+  background-color: transparent;
+}
+
+html body .ReactModal__Overlay--after-open {
+  background-color: transparent;
+}
+
+html body .ReactModal__Overlay--before-close {
+  background-color: transparent;
+}
+
+html body .hero-headline--inverse,
+html body .hero-headline__alt {
+  color: var(--color-orange);
+}
+
+html body .item {
+  color: var(--color-gray-light);
+}
+
+html body .item.is-active {
+  background: var(--color-purple-light-alt);
+}
+
+html body .item:hover {
+  background: var(--color-purple-light-alt);
+}
+
+html body .item:first-child {
+  border-top: 1px solid var(--color-gray-normal);
+}
+
+html body .item-page__content {
+  background: var(--color-gray-light);
+}
+
+html body .mobile-item-page {
+  background: #eeeeee;
+}
+
+:root {
+  --color-blue-bg: linear-gradient(
+    to bottom,
+    #190695,
+    #22098a,
+    #280d7f,
+    #2b1074,
+    #2d126a
+  );
+  --color-gray-dark-alt: #595959;
+  --color-gray-normal: #6e6e6e;
+  --color-gray-light: #eeeeee;
+  --color-purple-light-alt: #32299a;
+  --color-purple-light: #aea0ce;
+  --color-white: #fff;
+  --color-green: #117069;
+  --color-orange: #fb8734;
+  --color-blue: #3099f6;
+  --color-marine: #9e9e9e;
+  --color-red: #ff4600;
+  --color-brand: #f59134;
+  --color-blue-brand: #0819b5;
+  --color-blue-darker: #07076c;
+  --until-sm: 30em;
+  --until-md: 48em;
+  --until-lg: 61.875em;
+  --until-xl: 75em;
+}
+
+html > body {
+  background: var(--color-blue-bg);
+}
+
+html body .button {
+  color: var(--color-orange);
+}
+
+html body .footnote {
+  color: var(--color-gray-light);
+}
+
+html body .headline--dark {
+  color: var(--color-gray-normal);
+}
+
+html body .icon-link {
+  color: #f59134;
+  color: var(--color-brand);
+}
+
+html body .icon-link:hover:after {
+  border-bottom: 2px solid #0819b5;
+  border-bottom: 2px solid var(--color-purple-light-alt);
+}
+
+html body .letter-index__letter {
+  color: var(--color-orange);
+}
+
+html body .markdown a {
+  color: #0819b5;
+  color: var(--color-blue-brand);
+}
+
+html body .markdown a:hover {
+  color: #32299a;
+  color: var(--color-purple-light-alt);
+}
+
+html body .social-icon {
+  color: var(--color-blue-brand);
+}
+
+html body .item-page__nav {
+  background: var(--color-blue-brand);
+}
+
+html body .item-page__content {
+  background: var(--color-white);
+}

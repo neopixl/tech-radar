@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build: 
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -31,9 +31,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: rm -rf build
       - run: npm ci
-      - run: npx aoe_technology_radar-buildRadar 
-        env: 
+      - run: npx aoe_technology_radar-buildRadar
+        env:
           PUBLIC_URL: /tech-radar
+          REACT_APP_RADAR_NAME: Technology Radar
       - run: npx aoe_technology_radar-generateJson
         env:
           PUBLIC_URL: /tech-radar

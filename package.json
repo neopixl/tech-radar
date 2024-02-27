@@ -6,7 +6,7 @@
   "homepage": "/build",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "PUBLIC_URL=/build npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
+    "build": "REACT_APP_RADAR_NAME=\"Technology Radar\" PUBLIC_URL=/build npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
     "build-localhost": "PUBLIC_URL=/build npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
     "start": "npm run start:server",
     "start:server": "python3 -m http.server 8080"
