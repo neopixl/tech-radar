@@ -1,4 +1,5 @@
-<center>![Logo neopixl](docs/logo-dark.png#gh-dark-mode-only)![Logo neopixl](docs/logo-light.png#gh-light-mode-only)</center>
+![Logo neopixl](docs/logo-dark.png#gh-dark-mode-only)
+![Logo neopixl](docs/logo-light.png#gh-light-mode-only)
 
 <center><h1>Technology Radar</h1></center>
 
