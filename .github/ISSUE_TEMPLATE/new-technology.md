@@ -1,11 +1,13 @@
 ---
 name: New technology
 about: Submit a new technology to the tech-radar
-title: "[TECH] "
+title: "[TECH] Name of your tech"
 labels: new-tech
 assignees: ''
 
 ---
+
+> Do not forget to add the name of the technology in the issue title :wink:
 
 **What technology to you want to add?**
 > Please state the name, and a basic use case of your technology
