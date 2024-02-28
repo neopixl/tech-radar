@@ -1,7 +1,7 @@
 ---
 title: "React Navigation"
 ring: adopt
-quadrant: react
+quadrant: React
 tags: [navigation]
 ---
 

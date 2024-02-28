@@ -1,7 +1,7 @@
 ---
 title: "React Reanimated"
 ring: adopt
-quadrant: react
+quadrant: React
 tags: [animation]
 ---
 
