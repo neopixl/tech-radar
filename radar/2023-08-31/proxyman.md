@@ -5,9 +5,10 @@ quadrant: tools
 tags: [network, proxy, Android, iOS, React native]
 ---
 
-<p>Tool for network frame analysis</strong>
-<em><a href="https://www.charlesproxy.com/documentation/welcome/">Tool link</a></em>
-<p> Allows via proxy to see and analyze the network frames of a device.<br />
-Under consideration for a potential replacement for Charles <br />
-the tool is more graphic and pleasant to use <br />
-Possibility of using it via a VPN on the mobile using a tool like openVPN. <br />
+Proxyman is a modern debugging proxy tool designed for developers to monitor, intercept, and manipulate HTTP/HTTPS traffic between their applications and the internet. It offers a user-friendly interface with powerful features such as SSL certificate generation, request/response inspection, latency simulation, and more. Proxyman simplifies the debugging process by providing detailed insights into network requests and responses, allowing developers to diagnose and troubleshoot issues effectively.
+
+### Docs
+
+- [Proxyman Documentation](https://docs.proxyman.io/)
+- [Proxyman GitHub Repository](https://github.com/ProxymanApp/Proxyman)
+- [Proxyman Blog](https://blog.proxyman.io/)

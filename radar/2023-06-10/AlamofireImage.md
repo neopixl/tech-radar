@@ -2,10 +2,19 @@
 title: "AlamofireImage"
 ring: assess
 quadrant: iOS
-tags: [image, iOS]
+tags: [network, image, iOS]
 ---
 
-<p>Online image recovery framework</p>
-<p><a href="https://github.com/Alamofire/Alamofireimage">Link to Github</a> <br /> <br />
-Can still be used in old projects.<br />
-However, it would be better to use the native language to make network calls:  <a href="https://developer.apple.com/documentation/foundation/urlrequest">Apple doc</a></p>
+### Online Image Management
+
+AlamofireImage is an extension of the Alamofire networking library, specifically designed for handling image requests in iOS and macOS applications.
+
+It simplifies the process of downloading, caching, and displaying images from remote URLs, offering features like automatic caching, image decompression, and efficient memory management.
+
+With AlamofireImage, developers can easily integrate remote images into their apps, handle image loading asynchronously, and optimize performance by leveraging its caching capabilities.
+
+AlamofireImage is a widely used library in the iOS and macOS development community, known for its simplicity, reliability, and seamless integration with Alamofire.
+
+### Docs
+
+- [Github Repository](https://github.com/Alamofire/Alamofireimage)
