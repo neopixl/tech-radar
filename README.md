@@ -11,7 +11,7 @@ The technologies part of this tech radar are curated by the tech team at neopixl
 
 ### I want to propose a new technology 
 
-Everyone at neopixl can propose new technologies, or submit a request through Github issues system. Please read the contribution guide to see how you can add a new technology. 
+Everyone at neopixl can propose new technologies, or submit a request through Github issues system. Please read the [Contribution Guide](CONTRIBUTE.md) to see how you can add a new technology. 
 
 ## License 
 
