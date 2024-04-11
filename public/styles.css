@@ -112,7 +112,8 @@ html body .headline{
 }
 
 html body .item-list__header .headline, 
-.item-page__header .headline{
+.item-page__header .headline,
+.quadrant-section__header .headline{
   color: white;
 }
 
