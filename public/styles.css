@@ -34,6 +34,7 @@ html body .ReactModal__Overlay--before-close {
 html body .hero-headline--inverse,
 html body .hero-headline__alt {
   color: var(--color-orange);
+  font-weight: 700;
 }
 
 html body .item {
@@ -103,6 +104,11 @@ html body .footnote {
 
 html body .headline--dark {
   color: var(--color-gray-normal);
+}
+
+html body .headline{
+  color: black;
+  padding: .6rem;
 }
 
 html body .icon-link {
