@@ -140,3 +140,7 @@ html body .item-page__nav {
 html body .item-page__content {
   background: var(--color-white);
 }
+
+html body .__react_component_tooltip:before{
+  display:  none;
+}
