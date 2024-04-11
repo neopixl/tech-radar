@@ -111,6 +111,10 @@ html body .headline{
   padding: .6rem;
 }
 
+html body .item-list__header .headline{
+  color: white;
+}
+
 html body .icon-link {
   color: #f59134;
   color: var(--color-brand);
