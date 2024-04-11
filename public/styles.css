@@ -111,7 +111,8 @@ html body .headline{
   padding: .6rem;
 }
 
-html body .item-list__header .headline{
+html body .item-list__header .headline, 
+.item-page__header .headline{
   color: white;
 }
 
