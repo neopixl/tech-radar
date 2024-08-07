@@ -5,13 +5,8 @@
   "main": "index.js",
   "homepage": "/build",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "techradar build",
-    "build-old": "REACT_APP_RADAR_NAME=\"Technology Radar\" PUBLIC_URL=/build npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
-    "build-localhost": "PUBLIC_URL=/build npx aoe_technology_radar-buildRadar && npx aoe_technology_radar-generateJson",
-    "serve": "techradar serve",
-    "start": "npm run start:server",
-    "start:server": "python3 -m http.server 8080"
+    "serve": "techradar serve"
   },
   "author": "",
   "license": "ISC",
