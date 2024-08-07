@@ -106,15 +106,15 @@ html body .headline--dark {
   color: var(--color-gray-normal);
 }
 
-html body .headline{
+html body .headline {
   color: black;
-  padding: .6rem;
+  padding: 0.6rem;
 }
 
-html body .item-list__header .headline, 
+html body .item-list__header .headline,
 html body .item-page__header .headline,
 html body .quadrant-section__header .headline,
-html body .quadrant-label .headline{
+html body .quadrant-label .headline {
   color: white;
 }
 
@@ -154,6 +154,6 @@ html body .item-page__content {
   background: var(--color-white);
 }
 
-html body .__react_component_tooltip:before{
-  display:  none;
+html body .__react_component_tooltip:before {
+  display: none;
 }
