@@ -119,12 +119,10 @@ html body .quadrant-label .headline {
 }
 
 html body .icon-link {
-  color: #f59134;
   color: var(--color-brand);
 }
 
 html body .icon-link:hover:after {
-  border-bottom: 2px solid #0819b5;
   border-bottom: 2px solid var(--color-purple-light-alt);
 }
 
@@ -133,12 +131,10 @@ html body .letter-index__letter {
 }
 
 html body .markdown a {
-  color: #0819b5;
   color: var(--color-blue-brand);
 }
 
 html body .markdown a:hover {
-  color: #32299a;
   color: var(--color-purple-light-alt);
 }
 
