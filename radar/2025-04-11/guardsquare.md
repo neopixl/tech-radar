@@ -1,26 +1,28 @@
 ---
-title: "GuardSquare"
-ring: assess
+title: "Guardsquare"
+ring: adopt
 quadrant: tools
 tags: [Security, Mobile, Obfuscation, RASP, Android, iOS]
 ---
 
-GuardSquare provides mobile application protection solutions, specializing in shielding iOS and Android apps against reverse engineering and hacking. Their products (like DexGuard for Android and iXGuard for iOS) offer advanced code obfuscation and runtime application self-protection (RASP) features.
+Guardsquare offers comprehensive security for mobile applications. Its products, DexGuard for Android and iXGuard for iOS, protect apps from tampering and reverse engineering using advanced code obfuscation and runtime self-protection (RASP). Additionally, Guardsquare's AppSweep tool helps developers find and fix security vulnerabilities in their apps and SDKs, integrating directly into DevOps workflows to keep projects on schedule. Additionally, Guardsquare's ThreatCast monitors your apps in real-time and continuously improve your security implementation with ThreatCast’s actionable feedback.
 
-#### Should be used in a new project if:
+#### Should be mandatory in a new project if:
 
 * Your mobile application (Android/iOS) contains sensitive intellectual property or handles critical data.
 * You need to protect your app against reverse engineering, tampering, or cloning.
 * You require advanced code obfuscation and runtime protection features.
 * Security is a critical requirement for your mobile application (e.g., finance, healthcare, high-value games).
 
-#### Should not be used in a new project if:
+#### Should be optional in a new project if:
 
 * Your mobile application has low security requirements or does not contain sensitive IP/data.
 * Basic code shrinking and optimization provided by standard build tools (like R8/ProGuard) are sufficient.
-* The cost and complexity of integrating advanced security tools are prohibitive for the project.
 
 ### Docs
 
-* [GuardSquare Partner Page (Entrust)](https://www.entrust.com/partners/directory/guardsquare) (Provides a general description)
-* *(Note: Specific product documentation like DexGuard/iXGuard would be found on the official GuardSquare website)*
+* [Official Guardsquare's website](https://www.guardsquare.com/) (Provides a general description)
+* [AppSweep](https://www.guardsquare.com/appsweep-mobile-application-security-testing)
+* [DexGuard](https://www.guardsquare.com/dexguard)
+* [iXGuard](https://www.guardsquare.com/ixguard)
+* [ThreatCast](https://www.guardsquare.com/threatcast-mobile-threat-defense)
