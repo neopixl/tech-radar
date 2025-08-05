@@ -61,6 +61,10 @@ html body .mobile-item-page {
   background: #eeeeee;
 }
 
+html body .Tags_tags__opeOM {
+  max-width: 100% !important;
+}
+
 :root {
   --color-blue-bg: linear-gradient(
     to bottom,
