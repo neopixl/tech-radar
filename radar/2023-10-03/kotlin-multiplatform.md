@@ -1,5 +1,5 @@
 ---
-title: "KMM for Android"
+title: "Kotlin Multiplatform"
 ring: trial
 quadrant: Android
 tags: [Kotlin, Android]
