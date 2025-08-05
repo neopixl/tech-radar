@@ -1,8 +1,8 @@
 ---
 title: "AlamofireImage"
 ring: assess
-quadrant: iOS
-tags: [network, image, iOS]
+quadrant: ios
+tags: [network, image, ios]
 ---
 
 ### Online Image Management

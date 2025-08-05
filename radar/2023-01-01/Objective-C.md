@@ -1,8 +1,8 @@
 ---
 title: "Objective-C"
 ring: hold
-quadrant: iOS
-tags: [language, iOS]
+quadrant: ios
+tags: [language, ios]
 ---
 
 ### Development Language

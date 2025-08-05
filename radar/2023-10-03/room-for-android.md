@@ -1,8 +1,8 @@
 ---
 title: "Room for Android"
 ring: adopt
-quadrant: Android
-tags: [Android]
+quadrant: android
+tags: [android]
 ---
 
 Room is a persistence library for Android that allows developers to create SQLite databases easily and efficiently. It provides an abstraction over SQLite, meaning developers do not need to know the details of manipulating SQLite to create and manage databases.

@@ -1,8 +1,8 @@
 ---
-title: "KMM for Android"
+title: "Kotlin Multiplatform"
 ring: trial
-quadrant: Android
-tags: [Kotlin, Android]
+quadrant: android
+tags: [kotlin, android]
 ---
 
 <p>Kotlin Multiplatform (KMP) is a framework that allows you to develop cross-platform applications in Kotlin. It allows developers to share Kotlin code between Android, iOS, macOS, Linux, Windows and web applications.</p>

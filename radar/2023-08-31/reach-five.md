@@ -2,7 +2,7 @@
 title: "ReachFive"
 ring: hold
 quadrant: tools
-tags: [Database, login, iOS, React native]
+tags: [database, login, ios, react-native]
 ---
 
 Reach5 is a customer identity and access management (CIAM) platform designed to help businesses streamline user authentication, registration, and account management processes. It provides a comprehensive set of authentication methods such as social login, passwordless authentication, and multi-factor authentication (MFA), allowing businesses to offer a seamless and secure login experience for their users across web and mobile applications.

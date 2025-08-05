@@ -1,8 +1,8 @@
 ---
 title: "Paparazzi"
 ring: assess
-quadrant: Android
-tags: [testing, Android]
+quadrant: android
+tags: [testing, android]
 ---
 
 <p><b>Paparazzi</b></p>

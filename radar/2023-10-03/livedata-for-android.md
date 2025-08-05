@@ -1,8 +1,8 @@
 ---
 title: "Livedata for Android"
 ring: hold
-quadrant: Android
-tags: [Android]
+quadrant: android
+tags: [android]
 ---
 
 <p>LiveData is an Android class that represents observable data. It is designed for use in Android applications to simplify data management and view updating.</p>

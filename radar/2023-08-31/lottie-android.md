@@ -1,8 +1,8 @@
 ---
 title: "Lottie for Android"
 ring: adopt
-quadrant: Android
-tags: [Animations, Android]
+quadrant: android
+tags: [animations, android]
 ---
 
 Lottie for Android is a library developed by Airbnb that renders Adobe After Effects animations natively in real-time in Android applications. It simplifies the process of adding complex animations to apps by allowing developers to export animations as JSON files from After Effects and render them using the Lottie library.

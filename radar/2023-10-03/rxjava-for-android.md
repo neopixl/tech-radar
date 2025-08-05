@@ -1,8 +1,8 @@
 ---
 title: "RXJava for Android"
 ring: hold
-quadrant: Android
-tags: [Android]
+quadrant: android
+tags: [android]
 ---
 
 <h1>RXJava for Android</h1>

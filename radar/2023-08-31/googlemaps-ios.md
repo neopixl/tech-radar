@@ -1,8 +1,8 @@
 ---
 title: "Google Maps for iOS"
 ring: adopt
-quadrant: iOS
-tags: [cartograpy, iOS]
+quadrant: ios
+tags: [cartograpy, ios]
 ---
 
 Google Maps for iOS is a comprehensive mapping solution developed by Google, offering features like detailed maps, satellite imagery, street view, and route planning. It provides iOS developers with tools to integrate interactive maps into their applications, enabling functionalities such as location services, geocoding, and place search.

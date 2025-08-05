@@ -1,8 +1,8 @@
 ---
 title: "Retrofit for Android"
 ring: adopt
-quadrant: Android
-tags: [cartography, Android]
+quadrant: android
+tags: [cartography, android]
 ---
 
 <p>Retrofit is a networking library for Android that allows developers to create REST APIs simply and efficiently. It provides abstraction over HTTP, meaning developers do not need to know the details of manipulating HTTP to create and manage REST APIs.</p>

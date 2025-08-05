@@ -2,7 +2,7 @@
 title: "Bitrise"
 ring: adopt
 quadrant: tools
-tags: [ci, Android, iOS, React native]
+tags: [ci-cd, android, ios, react-native]
 ---
 
 Bitrise is a continuous integration and continuous delivery (CI/CD) platform designed specifically for mobile app development. It provides a streamlined workflow for automating the build, test, and deployment processes of mobile applications across iOS and Android platforms. With Bitrise, developers can easily set up workflows to automatically build, test, and deploy their apps whenever changes are pushed to their version control system. It supports integration with popular version control systems, testing frameworks, and deployment platforms, making it an essential tool for mobile app development teams to ensure code quality, reliability, and speed of delivery.

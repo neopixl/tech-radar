@@ -1,8 +1,8 @@
 ---
 title: "Gradle KTS for Android"
 ring: adopt
-quadrant: Android
-tags: [Gradle, Android]
+quadrant: android
+tags: [gradle, android]
 ---
 
 <p>Gradle KTS is a version of Gradle written in Kotlin. It offers a number of advantages over the Groovy version of Gradle, including:</p>

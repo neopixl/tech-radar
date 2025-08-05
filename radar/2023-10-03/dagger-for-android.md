@@ -1,8 +1,8 @@
 ---
 title: "Dagger for Android"
 ring: hold
-quadrant: Android
-tags: [DI, Android]
+quadrant: android
+tags: [di, android]
 ---
 
 <p>Dagger is a dependency injection framework for Java and Kotlin. It is designed to simplify application development by centralizing dependency management.</p>

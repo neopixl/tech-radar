@@ -1,8 +1,8 @@
 ---
 title: "Jetpack Compose for Android"
 ring: adopt
-quadrant: Android
-tags: [UI, Android]
+quadrant: android
+tags: [ui, android]
 ---
 
 <p>Jetpack Compose is a declarative user interface (UI) creation toolkit for Android. It is designed to simplify and accelerate Android application development.</p>

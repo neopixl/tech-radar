@@ -22,19 +22,19 @@
   },
   "quadrants": [
     {
-      "id": "iOS",
+      "id": "ios",
       "title": "iOS",
       "description": "All iOS technologies related as languages or framework",
       "color": "#FB8734"
     },
     {
-      "id": "Android",
+      "id": "android",
       "title": "Android",
       "description": "All Android technologies related as languages or framework",
       "color": "#41C67A"
     },
     {
-      "id": "React",
+      "id": "react",
       "title": "React Native",
       "description": "All React technologies related as languages or framework",
       "color": "#3099F6"

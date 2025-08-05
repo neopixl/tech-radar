@@ -1,8 +1,8 @@
 ---
 title: "CoreStore"
 ring: hold
-quadrant: iOS
-tags: [Database, iOS]
+quadrant: ios
+tags: [database, ios]
 ---
 
 CoreStore is a Swift-based framework that provides a layer of abstraction on top of CoreData, Apple's persistence framework for iOS and macOS applications. It aims to simplify the usage of CoreData by offering a more modern and Swifty API.
