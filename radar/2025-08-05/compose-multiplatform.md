@@ -1,8 +1,8 @@
 ---
 title: "Compose Multiplatform"
 ring: trial
-quadrant: Android
-tags: [kotlin, android, ios, desktop, web, ui-framework, compose, cross-platform]
+quadrant: android
+tags: [android, ios, desktop, web, ui-components, cross-platform]
 ---
 
 Compose Multiplatform is JetBrains' declarative UI framework that extends Android's Jetpack Compose to support multiple platforms including iOS, desktop (Windows, macOS, Linux), and web. It enables developers to create native user interfaces using a single codebase while maintaining platform-specific look and feel.

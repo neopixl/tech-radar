@@ -1,6 +1,6 @@
 ---
 title: "MVC"
-ring: assess
+ring: hold
 quadrant: tools
 tags: [pattern, android, ios, hybrid]
 ---

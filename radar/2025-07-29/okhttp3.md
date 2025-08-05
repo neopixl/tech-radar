@@ -1,7 +1,7 @@
 ---
 title: OkHttp3
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [networking, java]
 ---
 

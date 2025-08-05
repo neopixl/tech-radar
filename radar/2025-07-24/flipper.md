@@ -1,8 +1,8 @@
 ---
 title: flipper
 ring: hold
-quadrant: React
-tags: [debugging, mobile, development-tools]
+quadrant: react
+tags: [debugging, development-tools, deprecated]
 ---
 Flipper is a debugging and profiling tool for React Native, providing insights into app performance, network requests, and component trees. It integrates with React Native apps to offer a desktop interface for debugging, with plugins for logs, crashes, and more. Flipper is maintained by Meta.
 

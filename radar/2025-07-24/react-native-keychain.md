@@ -1,7 +1,7 @@
 ---
 title: react-native-keychain
 ring: adopt
-quadrant: React
+quadrant: react
 tags: [react-native, security, storage]
 ---
 React Native Keychain is a library for securely storing sensitive data, such as credentials and tokens, in the native keychain of iOS and Android devices. It provides a simple API to save, retrieve, and delete data, leveraging platform-specific secure storage mechanisms like iOS Keychain and Android Keystore. The library supports biometric authentication and is widely used for secure data management.

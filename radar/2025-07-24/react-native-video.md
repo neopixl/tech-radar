@@ -1,8 +1,8 @@
 ---
 title: react-native-video
 ring: trial
-quadrant: React
-tags: [react-native, video, media, ui-components]
+quadrant: react
+tags: [react-native, video, media]
 ---
 React Native Video is a component for playing videos in React Native apps. It supports local and remote video playback, streaming, and features like playback controls, looping, and full-screen mode. The library leverages native media players for optimal performance and supports both iOS and Android.
 

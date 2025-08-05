@@ -1,8 +1,8 @@
 ---
 title: react-error-boundary
 ring: assess
-quadrant: React
-tags: [react, react-native, error-handling, debugging]
+quadrant: react
+tags: [react, react-native, debugging]
 ---
 React Error Boundary is a library for handling JavaScript errors in React and React Native components. It provides a component to catch errors in the component tree, preventing app crashes and allowing fallback UIs. The library is lightweight and supports TypeScript, improving app robustness.
 

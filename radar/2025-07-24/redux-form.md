@@ -1,8 +1,8 @@
 ---
 title: redux-form
 ring: hold
-quadrant: React
-tags: [react, react-native, forms, redux, deprecated]
+quadrant: react
+tags: [react, react-native, forms, state-management, deprecated]
 ---
 Redux Form is a library for managing form state in Redux-based React and React Native apps. It integrates form state with Redux, providing utilities for validation, submission, and field management. However, it adds significant complexity and boilerplate compared to modern alternatives.
 

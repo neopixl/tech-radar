@@ -1,7 +1,7 @@
 ---
-title: lottie-react-native
+title: Lottie for React native
 ring: adopt
-quadrant: React
+quadrant: react
 tags: [react-native, animations, ui-components]
 ---
 Lottie for React Native is a library that enables rendering of After Effects animations in real-time. It uses JSON-based animation files (Lottie files) to create smooth, high-quality animations on iOS and Android. The library supports complex animations, interactive controls, and integration with tools like Adobe After Effects, making it ideal for enhancing app visuals.

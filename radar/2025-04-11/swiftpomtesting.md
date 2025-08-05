@@ -1,8 +1,8 @@
 ---
 title: "swift-pom-testing"
 ring: assess
-quadrant: tools
-tags: [iOS, Swift, Testing, UI Testing, POM]
+quadrant: ios
+tags: [ios, swift, testing, ui-testing, pom]
 ---
 
 swift-pom-testing is a Swift library providing base classes to facilitate UI testing using the Page Object Model (POM) pattern. It offers `BasePage` to encapsulate UI element identification and access within a specific screen (page), and `BaseRobot` to define actions and verifications that can be performed on those elements. The goal is to create more structured, reusable, and maintainable UI tests.

@@ -1,8 +1,8 @@
 ---
 title: "Google Maps for React Native"
 ring: adopt
-quadrant: React
-tags: [cartography, React Native]
+quadrant: react
+tags: [cartography, react-native]
 ---
 
 Google Maps for React Native is a library that allows developers to integrate Google Maps into their React Native applications. It provides components and APIs for rendering interactive maps, markers, polylines, and other map features within the React Native environment.

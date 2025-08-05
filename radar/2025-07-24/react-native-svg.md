@@ -1,8 +1,8 @@
 ---
 title: react-native-svg
 ring: adopt
-quadrant: React
-tags: [react-native, graphics, svg, ui-components]
+quadrant: react
+tags: [react-native, graphics, svg]
 ---
 React Native SVG is a library for rendering scalable vector graphics (SVGs) in React Native apps. It supports creating and manipulating SVG elements like paths, shapes, and gradients using JavaScript. The library is lightweight, supports animations, and integrates well with React Native’s ecosystem, making it ideal for custom icons, illustrations, and charts.
 

@@ -2,7 +2,7 @@
 title: "Guardsquare"
 ring: adopt
 quadrant: tools
-tags: [Security, Mobile, Obfuscation, RASP, Android, iOS]
+tags: [security, mobile, obfuscation, rasp, android, ios]
 ---
 
 Guardsquare offers comprehensive security for mobile applications. Its products, DexGuard for Android and iXGuard for iOS, protect apps from tampering and reverse engineering using advanced code obfuscation and runtime self-protection (RASP). Additionally, Guardsquare's AppSweep tool helps developers find and fix security vulnerabilities in their apps and SDKs, integrating directly into DevOps workflows to keep projects on schedule. Additionally, Guardsquare's ThreatCast monitors your apps in real-time and continuously improve your security implementation with ThreatCast’s actionable feedback.

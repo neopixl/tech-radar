@@ -1,8 +1,8 @@
 ---
 title: moment
 ring: hold
-quadrant: React
-tags: [react, react-native, date-time, utilities, deprecated]
+quadrant: react
+tags: [react, react-native, utilities, deprecated]
 ---
 Moment.js is a JavaScript library for parsing, manipulating, and formatting dates. It was widely used in React Native apps for date handling but has been succeeded by modern alternatives like Luxon. Moment.js supports a wide range of date operations but is known for its large bundle size and mutable API.
 

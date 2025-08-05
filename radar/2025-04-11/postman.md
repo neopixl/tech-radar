@@ -2,7 +2,7 @@
 title: "Postman"
 ring: adopt
 quadrant: tools
-tags: [API, Development, Testing, Documentation, Collaboration]
+tags: [api, development, testing, documentation, collaboration]
 ---
 
 Postman is a comprehensive API platform for building, testing, documenting, and sharing APIs. It simplifies each step of the API lifecycle, from design and mocking to automated testing and monitoring. Postman enables individual developers and teams to collaborate effectively on API development.

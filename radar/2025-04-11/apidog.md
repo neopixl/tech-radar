@@ -2,7 +2,7 @@
 title: "Apidog"
 ring: assess
 quadrant: tools
-tags: [API, Design, Documentation, Testing, Mocking, Collaboration]
+tags: [api, design, documentation, testing, mocking, collaboration]
 ---
 
 Apidog is an integrated collaboration platform for API documentation, debugging, mocking, and automated testing. It aims to combine functionalities often found in separate tools (like Postman + Swagger + Mock + JMeter) into a single application, streamlining the API lifecycle from design to testing.

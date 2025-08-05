@@ -1,8 +1,8 @@
 ---
 title: react-native-localize
 ring: trial
-quadrant: React
-tags: [react-native, internationalization, i18n, localization]
+quadrant: react
+tags: [react-native, internationalization, localization]
 ---
 React Native Localize is a library for handling localization and internationalization in React Native apps. It provides APIs to detect device language, time zone, and region settings, enabling developers to adapt app content dynamically. The library is lightweight, supports TypeScript, and integrates well with i18next.
 

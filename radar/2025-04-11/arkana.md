@@ -2,7 +2,7 @@
 title: "Arkana"
 ring: assess
 quadrant: tools
-tags: [iOS, Kotlin, Security, Secrets, Obfuscation, Swift]
+tags: [ios, kotlin, security, secrets, obfuscation, swift]
 ---
 
 Arkana is a library designed to help manage and obfuscate secrets (like API keys) within application code for both iOS (Swift) and Android (Kotlin). It reads secrets from environment variables during the build process and generates obfuscated code (Swift/Kotlin files) to access these secrets, preventing them from being easily discoverable in the compiled binary. Configuration is handled via a `arkana.yml` file.

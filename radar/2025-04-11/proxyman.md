@@ -2,7 +2,7 @@
 title: "Proxyman"
 ring: assess
 quadrant: tools
-tags: [API, Debugging, Mobile, Web, Testing]
+tags: [api, debugging, mobile, web, testing]
 ---
 
 Proxyman is a native macOS application that enables developers and testers to capture, inspect, and manipulate HTTP/HTTPS traffic. It offers features like Breakpoint, Map Local, and Scripting for real-time analysis and modification of API requests and responses. This helps in testing and debugging mobile and web applications by simulating various scenarios.

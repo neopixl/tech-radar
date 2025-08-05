@@ -1,7 +1,7 @@
 ---
 title: "Kotlin Multiplatform"
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [kotlin, android, ios, cross-platform, multiplatform]
 ---
 

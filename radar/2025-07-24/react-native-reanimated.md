@@ -1,7 +1,7 @@
 ---
 title: react-native-reanimated
 ring: adopt
-quadrant: React
+quadrant: react
 tags: [react-native, animations, performance]
 ---
 React Native Reanimated is a powerful animation library that enables developers to create smooth, performant animations in React Native apps. Unlike traditional JavaScript-based animations, Reanimated runs animations on the native thread, leveraging the UI thread for fluid 60fps performance. It supports declarative animations, gesture-based interactions, and complex transitions using a simple API. Reanimated integrates seamlessly with React Native’s ecosystem, making it ideal for enhancing user interfaces with dynamic effects.

@@ -1,7 +1,7 @@
 ---
 title: AndroidLiquidGlass
 ring: assess
-quadrant: Android
+quadrant: android
 tags: [ui, effects]
 ---
 

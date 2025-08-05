@@ -1,8 +1,8 @@
 ---
 title: gorhom/bottom-sheet
 ring: trial
-quadrant: React
-tags: [react-native, ui-components, bottom-sheet]
+quadrant: react
+tags: [react-native, ui-components]
 ---
 @gorhom/bottom-sheet is a highly customizable bottom sheet component for React Native, enabling modal-like interfaces that slide up from the bottom of the screen. It supports gestures, snap points, and dynamic content, integrating seamlessly with react-native-reanimated and react-native-gesture-handler for smooth interactions. The library is lightweight and supports TypeScript.
 

@@ -2,7 +2,7 @@
 title: "Lokalise"
 ring: assess
 quadrant: tools
-tags: [Localization, Translation, i18n, Mobile, Web]
+tags: [localization, translation, i18n, mobile, web]
 ---
 
 Lokalise is a translation management system (TMS) designed for agile teams. It helps automate the localization workflow for web and mobile apps, games, and software. It provides tools for developers, translators, and project managers to collaborate on translating and managing multilingual content.

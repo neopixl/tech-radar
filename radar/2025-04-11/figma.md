@@ -2,7 +2,7 @@
 title: "Figma"
 ring: adopt
 quadrant: tools
-tags: [Design, UI, UX, Prototyping, Collaboration, Web, Mobile]
+tags: [design, ui, ux, prototyping, collaboration, web, mobile]
 ---
 
 Figma is a collaborative interface design tool that runs in the browser and via desktop apps. It encompasses Figma Design for creating and testing UI/UX, FigJam for online whiteboarding, and Dev Mode for handoff to developers. It allows multiple users to collaborate in real-time on design files, prototypes, and design systems.

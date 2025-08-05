@@ -1,7 +1,7 @@
 ---
 title: react-native-keyboard-controller
 ring: assess
-quadrant: React
+quadrant: react
 tags: [react-native, keyboard, ui-components]
 ---
 React Native Keyboard Controller is a library for managing keyboard behavior in React Native apps. It provides hooks and components to handle keyboard events, adjust layouts, and prevent issues like content being obscured by the keyboard. The library is lightweight and supports TypeScript.

@@ -1,8 +1,8 @@
 ---
 title: "AppAuth-iOS"
 ring: adopt
-quadrant: tools
-tags: [iOS, macOS, tvOS, Security, OAuth, OpenID Connect, Authentication, Swift, Objective-C]
+quadrant: ios
+tags: [ios, macos, tvos, security, oauth, openid-connect, authentication, swift, objective-c]
 ---
 
 AppAuth-iOS is a client SDK for native apps (iOS, macOS, tvOS) to communicate with OAuth 2.0 and OpenID Connect providers. It follows modern security best practices outlined in RFC 8252 (OAuth 2.0 for Native Apps), such as using external user-agents (`SFAuthenticationSession`, `SFSafariViewController`, `ASWebAuthenticationSession`) instead of WebViews. It supports Proof Key for Code Exchange (PKCE) to enhance security.

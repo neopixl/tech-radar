@@ -1,7 +1,7 @@
 ---
 title: react-native-skia
 ring: assess
-quadrant: React
+quadrant: react
 tags: [react-native, graphics, animations, performance]
 ---
 React Native Skia is a library that brings Skia, a high-performance 2D graphics engine, to React Native. It enables rendering of complex graphics, animations, and custom UI elements with near-native performance. Skia supports advanced features like shaders, vector graphics, and text rendering, making it ideal for visually rich apps.

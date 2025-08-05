@@ -1,7 +1,7 @@
 ---
 title: Compose Navigation
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [navigation, compose]
 ---
 

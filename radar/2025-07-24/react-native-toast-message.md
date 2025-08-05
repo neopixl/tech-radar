@@ -1,8 +1,8 @@
 ---
 title: react-native-toast-message
 ring: trial
-quadrant: React
-tags: [react]
+quadrant: react
+tags: [react-native, ui-components, notifications]
 ---
 React Native Toast Message is a library for displaying toast notifications in React Native apps. It provides a simple API to show customizable, cross-platform toasts with animations. The library supports TypeScript, theming, and various toast types (e.g., success, error), making it easy to integrate into apps for user feedback.
 

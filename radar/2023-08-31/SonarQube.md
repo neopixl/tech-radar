@@ -2,7 +2,7 @@
 title: "SonarQube"
 ring: adopt
 quadrant: tools
-tags: [code quality, Android, iOS, React native]
+tags: [code-quality, android, ios, react-native]
 ---
 
 SonarQube is an open-source platform for continuous inspection of code quality. It performs automated code reviews with static analysis to detect bugs, code smells, vulnerabilities, and security vulnerabilities in over 20 programming languages. SonarQube provides detailed reports and metrics, helping development teams improve code quality, maintainability, and security throughout the software development lifecycle.

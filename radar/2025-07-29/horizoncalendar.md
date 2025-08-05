@@ -1,7 +1,7 @@
 ---
 title: HorizonCalendar
 ring: trial
-quadrant: iOS
+quadrant: ios
 tags: [calendar, ui]
 ---
 

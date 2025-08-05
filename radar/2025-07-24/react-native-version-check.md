@@ -1,8 +1,8 @@
 ---
 title: react-native-version-check
 ring: assess
-quadrant: React
-tags: [react-native, version-management, app-store]
+quadrant: react
+tags: [react-native, version-management]
 ---
 React Native Version Check is a library for checking app versions and prompting users to update. It supports fetching version information from app stores (Google Play, App Store) and provides APIs to compare versions and trigger updates. The library is lightweight and cross-platform.
 

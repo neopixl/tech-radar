@@ -1,7 +1,7 @@
 ---
 title: Mapbox
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [maps, location]
 ---
 

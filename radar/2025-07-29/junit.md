@@ -1,7 +1,7 @@
 ---
 title: JUnit
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [testing, java]
 ---
 

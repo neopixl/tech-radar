@@ -1,8 +1,8 @@
 ---
 title: react-native-unistyles
 ring: assess
-quadrant: React
-tags: [react-native, styling, theming, ui-components]
+quadrant: react
+tags: [react-native, styling, ui-components]
 ---
 React Native Unistyles is a modern styling library for React Native, offering a type-safe, performant alternative to StyleSheet. It supports dynamic theming, media queries, and platform-specific styles, simplifying UI development. The library is lightweight and integrates with TypeScript.
 

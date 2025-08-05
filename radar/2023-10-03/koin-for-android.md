@@ -1,8 +1,8 @@
 ---
 title: "Koin for Android"
 ring: adopt
-quadrant: Android
-tags: [Android]
+quadrant: android
+tags: [android]
 ---
 
 <p>Koin is a lightweight and flexible dependency injection framework for Kotlin. It is designed for use in Android applications, but can also be used in other contexts.</p>

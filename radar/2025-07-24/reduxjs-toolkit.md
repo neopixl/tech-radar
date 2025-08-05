@@ -1,8 +1,8 @@
 ---
 title: reduxjs/toolkit
 ring: adopt
-quadrant: React
-tags: [react, react-native, state-management, redux]
+quadrant: react
+tags: [react, react-native, state-management]
 ---
 Redux Toolkit (@reduxjs/toolkit) is a state management library designed to simplify Redux usage in React and React Native applications. It provides utilities like `createSlice` and `configureStore` to reduce boilerplate, making state management more efficient. With built-in support for TypeScript, async thunks for data fetching, and immutable state updates, Redux Toolkit streamlines complex state logic while maintaining predictability and scalability.
 

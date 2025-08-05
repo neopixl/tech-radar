@@ -1,8 +1,8 @@
 ---
 title: "Google Maps Places SDK for iOS"
 ring: adopt
-quadrant: tools
-tags: [iOS, Maps, Geolocation, Places, Search, Autocomplete, Google Maps]
+quadrant: ios
+tags: [ios, maps, geolocation, places, search, autocomplete, google-maps]
 ---
 
 The Google Maps Places SDK for iOS allows developers to build location-aware applications using Google's extensive database of places. It provides features like finding nearby places, getting place details (address, phone number, type, photos), place search based on text queries, and autocompleting place names/addresses as users type.

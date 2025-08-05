@@ -1,8 +1,8 @@
 ---
 title: react-navigation
 ring: adopt
-quadrant: React
-tags: [react-native, navigation, routing]
+quadrant: react
+tags: [react-native, navigation]
 ---
 React Navigation is a popular, flexible navigation library for React Native, enabling developers to implement stack, tab, drawer, and modal navigation patterns with minimal boilerplate. It leverages native navigation components for iOS and Android, ensuring smooth, platform-specific transitions and gestures. The library supports TypeScript, deep linking, and customizable navigation options, making it suitable for both simple and complex apps. Its modular architecture allows developers to use only the navigators they need, optimizing performance.
 

@@ -1,8 +1,8 @@
 ---
 title: "Kotlin Flow"
 ring: adopt
-quadrant: Android
-tags: [Android, Kotlin]
+quadrant: android
+tags: [android, kotlin]
 ---
 
 <p>Flows in Kotlin are asynchronous data streams that emit values sequentially. They are built on top of coroutines and can be used to represent data from various sources, such as network calls, databases, or events.</p>

@@ -1,8 +1,8 @@
 ---
 title: "Alamofire"
 ring: hold
-quadrant: iOS
-tags: [network, iOS]
+quadrant: ios
+tags: [network, ios]
 ---
 
 ### Network Library

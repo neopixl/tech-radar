@@ -1,7 +1,7 @@
 ---
 title: yup
 ring: adopt
-quadrant: React
+quadrant: react
 tags: [react, react-native, validation, forms]
 ---
 Yup is a lightweight, schema-based validation library for JavaScript, commonly used with Formik in React Native apps. It allows developers to define validation schemas for form inputs, supporting complex rules like conditional validation, custom error messages, and nested object validation. Yup’s chainable API is intuitive, and its TypeScript support ensures type-safe validation logic.

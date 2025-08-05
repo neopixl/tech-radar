@@ -1,7 +1,7 @@
 ---
 title: Logger
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [logging, kotlin]
 ---
 

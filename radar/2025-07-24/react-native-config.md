@@ -1,8 +1,8 @@
 ---
 title: react-native-config
 ring: adopt
-quadrant: React
-tags: [react-native, configuration, environment]
+quadrant: react
+tags: [react-native, configuration]
 ---
 React Native Config is a library for managing environment variables in React Native apps. It allows developers to define configuration settings (e.g., API keys, base URLs) in `.env` files, enabling different configurations for development, staging, and production environments. The library supports both iOS and Android, with easy integration into JavaScript or TypeScript codebases.
 

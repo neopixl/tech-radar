@@ -1,7 +1,7 @@
 ---
 title: formik
 ring: adopt
-quadrant: React
+quadrant: react
 tags: [react, react-native, forms, validation]
 ---
 Formik is a form management library for React and React Native, simplifying the process of handling form state, validation, and submission. It provides a declarative API to manage form inputs, errors, and touched states, reducing boilerplate code. Formik integrates seamlessly with validation libraries like Yup, supports TypeScript, and handles complex form scenarios like dynamic fields and conditional validation.

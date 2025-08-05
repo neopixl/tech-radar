@@ -1,7 +1,7 @@
 ---
 title: zustand
 ring: trial
-quadrant: React
+quadrant: react
 tags: [react, react-native, state-management]
 ---
 Zustand is a lightweight state management library for React and React Native, offering a minimal API for managing global state. It avoids the boilerplate of Redux, using hooks and a simple store pattern. Zustand supports TypeScript, middleware for persistence, and async actions, making it suitable for small to medium-sized apps.

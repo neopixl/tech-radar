@@ -1,7 +1,7 @@
 ---
 title: NavigationModule
 ring: adopt
-quadrant: iOS
+quadrant: ios
 tags: [navigation, swift]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Mapbox
 ring: adopt
-quadrant: iOS
+quadrant: ios
 tags: [maps, location]
 ---
 

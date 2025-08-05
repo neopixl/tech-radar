@@ -1,8 +1,9 @@
+
 ---
 title: luxon
 ring: adopt
-quadrant: React
-tags: [react, react-native, date-time, utilities]
+quadrant: react
+tags: [react, react-native, utilities]
 ---
 Luxon is a modern JavaScript date and time library built by the Moment.js team, designed to handle date manipulation, formatting, and parsing. It offers a clean, immutable API, supports internationalization, and is optimized for performance. In React Native, Luxon simplifies working with dates across time zones, making it ideal for apps requiring robust date handling.
 

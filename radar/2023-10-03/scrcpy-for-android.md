@@ -1,8 +1,8 @@
 ---
 title: "Scrcpy for Android"
 ring: adopt
-quadrant: Android
-tags: [Android]
+quadrant: android
+tags: [android]
 ---
 
 <p>Scrcpy is an open-source application that allows you to control and view the screen of an Android device from a computer. It is based on the Android Debug Bridge (ADB) API and works on Windows, macOS and Linux.</p>

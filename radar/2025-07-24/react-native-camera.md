@@ -1,7 +1,7 @@
 ---
 title: react-native-camera
 ring: hold
-quadrant: React
+quadrant: react
 tags: [react-native, camera, media, deprecated]
 ---
 React Native Camera is a library for accessing device cameras in React Native apps, supporting photo capture, video recording, and barcode scanning. It was widely used but has been succeeded by modern alternatives like react-native-vision-camera due to performance and maintenance issues.

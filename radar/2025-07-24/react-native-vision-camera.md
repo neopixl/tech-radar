@@ -1,8 +1,8 @@
 ---
 title: react-native-vision-camera
 ring: trial
-quadrant: React
-tags: [react-native, camera, media, computer-vision]
+quadrant: react
+tags: [react-native, camera, media]
 ---
 React Native Vision Camera is a modern camera library for React Native, offering high-performance access to device cameras. It supports features like photo capture, video recording, barcode scanning, and real-time processing with plugins. Built with native performance in mind, it integrates with TypeScript and modern React Native versions.
 

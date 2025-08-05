@@ -1,8 +1,8 @@
 ---
 title: react-native-bootsplash
 ring: assess
-quadrant: React
-tags: [react-native, splash-screen, ui-components]
+quadrant: react
+tags: [react-native, splash-screen]
 ---
 React Native Bootsplash is a library for creating custom splash screens in React Native apps. It provides a simple API to display branded loading screens during app startup, supporting animations and platform-specific configurations. The library is lightweight and compatible with both iOS and Android.
 

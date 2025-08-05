@@ -1,7 +1,7 @@
 ---
 title: Glance
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [widgets, compose]
 ---
 

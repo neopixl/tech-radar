@@ -1,8 +1,8 @@
 ---
 title: shopify/restyle
 ring: assess
-quadrant: React
-tags: [react-native, styling, theming, ui-components]
+quadrant: react
+tags: [react-native, styling, ui-components]
 ---
 @shopify/restyle is a styling library for React Native, developed by Shopify, that provides a type-safe, theme-based approach to styling. It allows developers to define reusable style systems with utilities for spacing, typography, and colors, improving consistency across components. The library supports TypeScript and dynamic theming.
 

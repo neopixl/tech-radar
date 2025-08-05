@@ -1,7 +1,7 @@
 ---
 title: react-native-permissions
 ring: adopt
-quadrant: React
+quadrant: react
 tags: [react-native, permissions, security]
 ---
 React Native Permissions is a library for managing runtime permissions in React Native apps. It provides a unified API to request and check permissions (e.g., camera, location, storage) across iOS and Android. The library supports TypeScript, handles platform-specific permission flows, and simplifies compliance with privacy regulations.

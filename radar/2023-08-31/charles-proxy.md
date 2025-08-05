@@ -2,7 +2,7 @@
 title: "Charles"
 ring: adopt
 quadrant: tools
-tags: [network, proxy, Android, iOS, hybrid]
+tags: [network, proxy, android, ios, hybrid]
 ---
 
 Charles Proxy is a web debugging proxy application that allows developers to monitor, inspect, and manipulate HTTP/HTTPS traffic between their devices and the internet.

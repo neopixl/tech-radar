@@ -1,7 +1,7 @@
 ---
 title: Kdoc
 ring: adopt
-quadrant: Android
+quadrant: android
 tags: [documentation, kotlin]
 ---
 

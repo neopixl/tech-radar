@@ -1,8 +1,8 @@
 ---
 title: react-native-webview
 ring: adopt
-quadrant: React
-tags: [react-native, webview, web-integration]
+quadrant: react
+tags: [react-native, webview]
 ---
 React Native WebView is a component for rendering web content within React Native apps. It allows developers to embed web pages, display HTML content, or integrate web-based features like payment gateways. The library supports communication between JavaScript and native code, enabling dynamic interactions. It is highly customizable and supports both iOS and Android.
 

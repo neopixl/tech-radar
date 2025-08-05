@@ -1,7 +1,7 @@
 ---
 title: react-native-tracking-transparency
 ring: hold
-quadrant: React
+quadrant: react
 tags: [react-native, privacy, ios, tracking]
 ---
 React Native Tracking Transparency is a library for managing iOS App Tracking Transparency (ATT) permissions, required for user tracking since iOS 14.5. It provides APIs to request tracking permissions and check authorization status, ensuring compliance with Apple’s privacy policies.

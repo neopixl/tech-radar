@@ -1,8 +1,8 @@
 ---
 title: "Firebase Remote Config for iOS"
 ring: adopt
-quadrant: iOS
-tags: [config, iOS]
+quadrant: ios
+tags: [config, ios]
 ---
 
 Firebase Remote Config is a cloud service provided by Google Firebase that allows developers to remotely change the behavior and appearance of their apps without requiring app updates. It enables A/B testing, targeted rollouts, and personalized experiences by delivering parameter values to the app dynamically from the Firebase console.

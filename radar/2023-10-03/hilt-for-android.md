@@ -1,8 +1,8 @@
 ---
 title: "Hilt for Android"
 ring: adopt
-quadrant: Android
-tags: [DI, Android]
+quadrant: android
+tags: [di, android]
 ---
 
 <p>Hilt is a dependency injection library for Android that helps reduce the recurring code of manual dependency injection in your project. Hilt is based on Dagger, a popular dependency injection library.</p>

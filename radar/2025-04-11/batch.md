@@ -2,7 +2,7 @@
 title: "Batch"
 ring: assess
 quadrant: platforms
-tags: [Push Notifications, Mobile, Web, Engagement, Marketing Automation, CRM, In-App]
+tags: [push-notifications, mobile, web, engagement, marketing-automation, crm, in-app]
 ---
 
 Batch is a customer engagement platform designed for sending personalized push notifications (mobile & web), In-App messages, SMS, and emails at scale. It allows marketers to centralize customer data, orchestrate multi-channel communication scenarios (triggered, recurring, one-shot), manage marketing pressure, and analyze campaign performance.

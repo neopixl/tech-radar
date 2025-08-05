@@ -1,8 +1,8 @@
 ---
 title: Detekt
 ring: adopt
-quadrant: Android
-tags: [static analysis, kotlin]
+quadrant: android
+tags: [static-analysis, kotlin]
 ---
 
 Detekt is a static code analysis tool for Kotlin that helps developers enforce coding standards and detect code smells. It integrates with popular build tools and IDEs, providing real-time feedback and detailed reports.

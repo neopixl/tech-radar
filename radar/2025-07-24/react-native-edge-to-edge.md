@@ -1,8 +1,8 @@
 ---
 title: react-native-edge-to-edge
 ring: assess
-quadrant: React
-tags: [react-native, ui-components, layout]
+quadrant: react
+tags: [react-native, ui-components]
 ---
 React Native Edge-to-Edge is a library for handling edge-to-edge layouts on modern Android and iOS devices. It simplifies adapting UIs to devices with notches, rounded corners, and dynamic status bars, ensuring content renders correctly across screen types. The library is lightweight and integrates with React Native’s layout system.
 

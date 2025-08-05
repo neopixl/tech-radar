@@ -1,8 +1,8 @@
 ---
 title: react-native-navigation (Wix)
 ring: hold
-quadrant: React
-tags: [react-native, navigation, routing]
+quadrant: react
+tags: [react-native, navigation]
 ---
 React Native Navigation (Wix) is a navigation library that uses native navigation components for iOS and Android, offering high performance and platform-specific UI. It supports complex navigation patterns but requires significant native code integration, increasing setup complexity.
 
