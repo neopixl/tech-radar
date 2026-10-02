@@ -2,7 +2,7 @@
 title: "MVVM"
 ring: adopt
 quadrant: tools
-tags: [pattern, android, ios, hybrid]
+tags: [pattern, android, ios, react-native]
 ---
 
 <p><b>Design Pattern Model–view–viewModel</b></p>

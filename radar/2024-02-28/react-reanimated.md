@@ -2,7 +2,7 @@
 title: "React Reanimated"
 ring: adopt
 quadrant: react
-tags: [animation]
+tags: [animations]
 ---
 
 React Reanimated is a React Native library that provides a powerful set of APIs for building highly performant and complex animations and gestures. It allows developers to create smooth and interactive animations with native-like performance by leveraging the power of the native animation APIs on both iOS and Android platforms. React Reanimated is particularly useful for creating complex UI interactions, transitions, and animations that require low-level control and optimization.

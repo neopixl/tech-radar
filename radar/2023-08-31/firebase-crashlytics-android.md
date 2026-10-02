@@ -2,7 +2,7 @@
 title: "Firebase Crashlytics for Android"
 ring: adopt
 quadrant: android
-tags: [debug, crash, android]
+tags: [debugging, crash-reporting, android]
 ---
 
 Firebase Crashlytics is a crash reporting and analysis tool provided by Google as part of the Firebase mobile development platform. It is designed to help developers track and analyze app crashes, enabling them to identify and resolve issues quickly.

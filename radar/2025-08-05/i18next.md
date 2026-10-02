@@ -2,7 +2,7 @@
 title: i18next
 ring: adopt
 quadrant: react
-tags: [react, react-native, internationalization]
+tags: [react, react-native, localization]
 ---
 i18next is a powerful internationalization (i18n) framework for JavaScript, widely used in React Native via libraries like react-i18next. It supports translation management, pluralization, interpolation, and context-based translations. i18next is highly configurable, allowing developers to load translations dynamically, handle multiple languages, and integrate with backend services for localization.
 

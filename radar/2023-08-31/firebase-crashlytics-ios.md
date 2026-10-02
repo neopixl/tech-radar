@@ -2,7 +2,7 @@
 title: "Firebase Crashlytics for iOS"
 ring: adopt
 quadrant: ios
-tags: [debug, crash, ios]
+tags: [debugging, crash-reporting, ios]
 ---
 
 Firebase Crashlytics is a crash reporting and analysis tool provided by Google as part of the Firebase mobile development platform. It is designed to help developers track and analyze app crashes, enabling them to identify and resolve issues quickly.

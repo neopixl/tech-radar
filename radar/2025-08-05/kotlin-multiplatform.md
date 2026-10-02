@@ -2,7 +2,7 @@
 title: "Kotlin Multiplatform"
 ring: adopt
 quadrant: android
-tags: [kotlin, android, ios, cross-platform, multiplatform]
+tags: [kotlin, android, ios, cross-platform]
 ---
 
 Kotlin Multiplatform (KMP) is a framework that allows developers to share business logic and code between multiple platforms including Android, iOS, desktop, and web applications. By leveraging Kotlin's native compilation capabilities, KMP enables teams to write common code once while maintaining platform-specific implementations where needed.

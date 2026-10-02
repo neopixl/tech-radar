@@ -2,7 +2,7 @@
 title: "MVC"
 ring: hold
 quadrant: tools
-tags: [pattern, android, ios, hybrid]
+tags: [pattern, android, ios, react-native]
 ---
 
 <p><b>Design Pattern Model–view–Controller</b></p>

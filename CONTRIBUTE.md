@@ -87,7 +87,7 @@ Following front-matter attributes are possible:
 - **info**: (optional) A short textual description of the item (visible in
   overview pages)
 - **featured**: (optional, default "true") If you set this to `false`, the item will not be visible in the radar quadrants but still be available in the overview.
-- **tags**: (Optional) You can add tags inside square brackets [], separated by commas. For example, [Animations, React Native]. These tags aid in research. Ensure all tags start with the first letter capitalized. Please verify that your tag doesn't already exist in another file.
+- **tags**: (Optional) You can add tags inside square brackets [], separated by commas. For example, [animations, react-native]. These tags aid in research. Tags are lowercase and kebab-cased (`push-notifications`, not `Push Notifications`). Before creating a new tag, check whether an existing one already covers it (e.g. use `localization` rather than `i18n` or `translation`, `networking` rather than `network`).
 
 The name of the .md file serves as the item identifier and may overwrite items with the same name from older releases.
 

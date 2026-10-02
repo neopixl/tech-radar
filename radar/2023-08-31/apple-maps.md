@@ -2,7 +2,7 @@
 title: "Apple Map"
 ring: adopt
 quadrant: ios
-tags: [cartograhy, ios, hybrid]
+tags: [maps, ios, react-native]
 ---
 
 Apple Maps, powered by MapKit, is a mapping service provided by Apple for iOS, macOS, watchOS, and tvOS applications. It offers developers a powerful framework for integrating interactive maps and location-based services into their apps.

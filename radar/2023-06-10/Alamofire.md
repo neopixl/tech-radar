@@ -2,7 +2,7 @@
 title: "Alamofire"
 ring: adopt
 quadrant: ios
-tags: [network, ios]
+tags: [networking, ios]
 ---
 
 ### Network Library

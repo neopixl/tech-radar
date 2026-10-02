@@ -2,7 +2,7 @@
 title: "SQLDelight for Android"
 ring: assess
 quadrant: android
-tags: [cartography, android]
+tags: [database, android]
 ---
 
 <p>SQLDelight is a Kotlin framework that allows you to generate type-safe APIs for SQLite databases. It is designed for use in Android applications, but can also be used in other contexts.</p>
