@@ -50,7 +50,7 @@
     {
       "id": "adopt",
       "title": "Adopt",
-      "description": "",
+      "description": "Mature and proven in production. This is our default choice and should be used on all new projects.",
       "color": "#588157",
       "radius": 0.5,
       "strokeWidth": 5
@@ -58,7 +58,7 @@
     {
       "id": "trial",
       "title": "Trial",
-      "description": "",
+      "description": "Worth using on selected projects, under the supervision of a lead developer, to confirm it fits our needs before adopting it.",
       "color": "#457b9d",
       "radius": 0.69,
       "strokeWidth": 3
@@ -66,7 +66,7 @@
     {
       "id": "assess",
       "title": "Assess",
-      "description": "",
+      "description": "Recently released or new to us and worth exploring through research or a proof of concept. Not yet for client projects.",
       "color": "#bc6c25",
       "radius": 0.85,
       "strokeWidth": 2
@@ -74,7 +74,7 @@
     {
       "id": "hold",
       "title": "Hold",
-      "description": "",
+      "description": "Do not start new projects with it. Existing usages should be phased out when the opportunity arises.",
       "color": "#d62828",
       "radius": 1,
       "strokeWidth": 0.75
