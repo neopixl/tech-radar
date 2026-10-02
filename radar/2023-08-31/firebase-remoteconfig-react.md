@@ -2,7 +2,7 @@
 title: "Firebase Remote Config for React native"
 ring: adopt
 quadrant: react
-tags: [config, react-native]
+tags: [configuration, react-native]
 ---
 
 Firebase Remote Config is a cloud service provided by Google Firebase that allows developers to remotely change the behavior and appearance of their apps without requiring app updates. It enables A/B testing, targeted rollouts, and personalized experiences by delivering parameter values to the app dynamically from the Firebase console.

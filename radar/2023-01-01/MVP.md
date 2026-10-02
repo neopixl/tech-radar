@@ -2,7 +2,7 @@
 title: "MVP"
 ring: assess
 quadrant: tools
-tags: [pattern, android, ios, hybrid]
+tags: [pattern, android, ios, react-native]
 ---
 
 <p><b>Design Pattern Model–view–presenter</b></p>

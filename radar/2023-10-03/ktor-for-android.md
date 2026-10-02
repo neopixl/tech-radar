@@ -2,7 +2,7 @@
 title: "Ktor client for Android"
 ring: adopt
 quadrant: android
-tags: [network, android]
+tags: [networking, android]
 ---
 
 <p><b>Ktor customer</b></p>

@@ -2,7 +2,7 @@
 title: "AlamofireImage"
 ring: hold
 quadrant: ios
-tags: [network, image, ios]
+tags: [networking, image-loading, ios]
 ---
 
 ### Online Image Management

@@ -2,7 +2,7 @@
 title: "Google Maps for Android"
 ring: adopt
 quadrant: android
-tags: [cartography, android]
+tags: [maps, android]
 ---
 
 Google Maps for Android is a powerful mapping service provided by Google, offering detailed maps, satellite imagery, street views, and route planning functionalities. It allows Android developers to integrate interactive maps into their applications, enabling features such as location tracking, geocoding, and place autocomplete.
