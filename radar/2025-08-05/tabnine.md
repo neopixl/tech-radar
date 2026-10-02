@@ -1,7 +1,7 @@
 ---
 title: Tabnine
 ring: assess
-quadrant: Tools
+quadrant: tools
 tags: [ai, code-completion]
 ---
 

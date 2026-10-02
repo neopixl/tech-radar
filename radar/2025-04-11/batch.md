@@ -1,7 +1,7 @@
 ---
 title: "Batch"
 ring: assess
-quadrant: platforms
+quadrant: tools
 tags: [push-notifications, mobile, web, engagement, marketing-automation, crm, in-app]
 ---
 

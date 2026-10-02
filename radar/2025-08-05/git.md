@@ -1,7 +1,7 @@
 ---
 title: GIT
 ring: adopt
-quadrant: Tools
+quadrant: tools
 tags: [version-control, collaboration]
 ---
 

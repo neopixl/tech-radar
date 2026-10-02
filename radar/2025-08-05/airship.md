@@ -1,7 +1,7 @@
 ---
 title: Airship
 ring: trial
-quadrant: Tools
+quadrant: tools
 tags: [push-notifications, analytics]
 ---
 
