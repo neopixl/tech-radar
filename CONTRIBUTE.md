@@ -81,7 +81,7 @@ Following front-matter attributes are possible:
 
 - **title**: Name of the Item
 - **quadrant**: Quadrant. One of `ios`, `android`, `react` (React Native),
-  `tools`. Values are case-sensitive and must match the quadrant ids in
+  `tools`, `agentic` (Agentic AI). Values are case-sensitive and must match the quadrant ids in
   `config.json`, otherwise the item is skipped at build time.
 - **ring**: Ring section in radar. One of `trial`, `assess`, `adopt`, `hold`
 - **info**: (optional) A short textual description of the item (visible in
