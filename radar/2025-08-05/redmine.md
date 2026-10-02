@@ -1,7 +1,7 @@
 ---
 title: REDMINE
 ring: adopt
-quadrant: Tools
+quadrant: tools
 tags: [project-management, issue-tracking]
 ---
 

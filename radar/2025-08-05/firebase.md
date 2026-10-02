@@ -1,7 +1,7 @@
 ---
 title: Firebase
 ring: adopt
-quadrant: Tools
+quadrant: tools
 tags: [distribution, push-notifications, analytics, crashlytics]
 ---
 
