@@ -17,6 +17,7 @@ assignees: ''
 [ ] Android
 [ ] React Native
 [ ] Toolings
+[ ] Agentic AI
 
 **According to you, how should we handle this tech?**
 [ ] **Hold** - we should remove this tech from our stack and never start a new project with it.

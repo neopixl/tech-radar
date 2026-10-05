@@ -1,0 +1,230 @@
+diff --git a/node_modules/aoe_technology_radar/scripts/positioner.ts b/node_modules/aoe_technology_radar/scripts/positioner.ts
+index 63e0bf8..9bb8ffc 100644
+--- a/node_modules/aoe_technology_radar/scripts/positioner.ts
++++ b/node_modules/aoe_technology_radar/scripts/positioner.ts
+@@ -1,25 +1,36 @@
++import {
++  getQuadrantStartAngle,
++  getQuadrantSweep,
++} from "../src/lib/quadrantGeometry";
+ import { Quadrant, Ring } from "@/lib/types";
+ 
+ type Position = [x: number, y: number];
+ type RingDimension = [innerRadius: number, outerRadius: number];
+ 
+-// Corresponding to positions 1, 2, 3, and 4 respectively
+-const startAngles = [270, 0, 180, 90];
+-
+ export default class Positioner {
+   private readonly centerRadius: number;
+   private readonly minDistance: number = 20;
+   private readonly paddingRing: number = 15;
+-  private readonly paddingAngle: number = 10;
++  private readonly paddingAngle: number;
++  // Neopixl patch: AOE gives up after 150 random tries, which leaves
++  // overlapping blips in crowded rings. More tries pack rings much better.
++  private readonly maxTries: number = 1000;
+   private positions: Record<string, Position[]> = {};
+   private ringDimensions: Record<string, RingDimension> = {};
+   private quadrantAngles: Record<string, number> = {};
++  private readonly quadrantSweep: number;
+ 
+   constructor(size: number, quadrants: Quadrant[], rings: Ring[]) {
+     this.centerRadius = size / 2;
++    this.quadrantSweep = getQuadrantSweep(quadrants.length);
++    // Narrower slices lose too much room to a 10° gap on each side.
++    this.paddingAngle = quadrants.length === 4 ? 10 : 6;
+ 
+     quadrants.forEach((quadrant) => {
+-      this.quadrantAngles[quadrant.id] = startAngles[quadrant.position - 1];
++      this.quadrantAngles[quadrant.id] = getQuadrantStartAngle(
++        quadrant.position,
++        quadrants.length,
++      );
+     });
+ 
+     rings.forEach((ring, index) => {
+@@ -54,7 +65,7 @@ export default class Positioner {
+     const absoluteRadius = innerRadius + radiusFraction * ringWidth;
+ 
+     const startAngle = this.quadrantAngles[quadrantId] + this.paddingAngle;
+-    const endAngle = startAngle + 90 - 2 * this.paddingAngle;
++    const endAngle = startAngle + this.quadrantSweep - 2 * this.paddingAngle;
+     const absoluteAngle = startAngle + (endAngle - startAngle) * angleFraction;
+     const angleInRadians = ((absoluteAngle - 90) * Math.PI) / 180;
+ 
+@@ -80,10 +91,10 @@ export default class Positioner {
+       tries++;
+     } while (
+       this.isOverlapping(position, this.positions[quadrantId]) &&
+-      tries < 150
++      tries < this.maxTries
+     );
+ 
+-    if (tries >= 150) {
++    if (tries >= this.maxTries) {
+       console.warn(
+         `Could not find a non-overlapping position for ${quadrantId} in ring ${ringId}`,
+       );
+diff --git a/node_modules/aoe_technology_radar/src/components/Radar/Chart.tsx b/node_modules/aoe_technology_radar/src/components/Radar/Chart.tsx
+index ebdfeb9..ddc650e 100644
+--- a/node_modules/aoe_technology_radar/src/components/Radar/Chart.tsx
++++ b/node_modules/aoe_technology_radar/src/components/Radar/Chart.tsx
+@@ -4,6 +4,10 @@ import React, { FC, Fragment, memo } from "react";
+ import styles from "./Chart.module.css";
+ 
+ import { Blip } from "@/components/Radar/Blip";
++import {
++  getQuadrantStartAngle,
++  getQuadrantSweep,
++} from "@/lib/quadrantGeometry";
+ import { Item, Quadrant, Ring } from "@/lib/types";
+ 
+ export interface ChartProps {
+@@ -23,7 +27,8 @@ const _Chart: FC<ChartProps> = ({
+ }) => {
+   const viewBoxSize = size;
+   const center = size / 2;
+-  const startAngles = [270, 0, 180, 90]; // Corresponding to positions 1, 2, 3, and 4 respectively
++  const quadrantCount = quadrants.length;
++  const sweep = getQuadrantSweep(quadrantCount);
+ 
+   // Helper function to convert polar coordinates to cartesian
+   const polarToCartesian = (
+@@ -40,8 +45,8 @@ const _Chart: FC<ChartProps> = ({
+   // Function to generate the path for a ring segment
+   const describeArc = (radiusPercentage: number, position: number): string => {
+     // Define the start and end angles based on the quadrant position
+-    const startAngle = startAngles[position - 1];
+-    const endAngle = startAngle + 90;
++    const startAngle = getQuadrantStartAngle(position, quadrantCount);
++    const endAngle = startAngle + sweep;
+ 
+     const radius = radiusPercentage * center; // Convert percentage to actual radius
+     const start = polarToCartesian(radius, endAngle);
+@@ -57,6 +62,41 @@ const _Chart: FC<ChartProps> = ({
+   const renderGlow = (position: number, color: string) => {
+     const gradientId = `glow-${position}`;
+ 
++    // The original glow fills one corner square, which only lines up with
++    // 90° quadrants. Otherwise, fill the quadrant's pie slice with a radial
++    // gradient from the centre.
++    if (quadrantCount !== 4) {
++      const startAngle = getQuadrantStartAngle(position, quadrantCount);
++      const start = polarToCartesian(center, startAngle);
++      const end = polarToCartesian(center, startAngle + sweep);
++      return (
++        <>
++          <defs>
++            <radialGradient
++              id={gradientId}
++              gradientUnits="userSpaceOnUse"
++              cx={center}
++              cy={center}
++              r={center}
++            >
++              <stop offset="0%" stopColor={color} stopOpacity={0.5}></stop>
++              <stop offset="100%" stopColor={color} stopOpacity={0}></stop>
++            </radialGradient>
++          </defs>
++          {/* prettier-ignore */}
++          <path
++            d={[
++              "M", center, center,
++              "L", start.x, start.y,
++              "A", center, center, 0, 0, 1, end.x, end.y,
++              "Z",
++            ].join(" ")}
++            fill={`url(#${gradientId})`}
++          />
++        </>
++      );
++    }
++
+     const cx = position === 1 || position === 3 ? 1 : 0;
+     const cy = position === 1 || position === 2 ? 1 : 0;
+ 
+diff --git a/node_modules/aoe_technology_radar/src/components/Radar/Label.module.css b/node_modules/aoe_technology_radar/src/components/Radar/Label.module.css
+index 539d11e..af6dafa 100644
+--- a/node_modules/aoe_technology_radar/src/components/Radar/Label.module.css
++++ b/node_modules/aoe_technology_radar/src/components/Radar/Label.module.css
+@@ -35,3 +35,11 @@
+   top: auto;
+   bottom: 0;
+ }
++
++/* Neopixl patch: 5th quadrant label, bottom centre */
++.position-5 {
++  top: auto;
++  bottom: 0;
++  left: 50%;
++  transform: translateX(-50%);
++}
+diff --git a/node_modules/aoe_technology_radar/src/components/Radar/Radar.module.css b/node_modules/aoe_technology_radar/src/components/Radar/Radar.module.css
+index 672cd7f..f785b07 100644
+--- a/node_modules/aoe_technology_radar/src/components/Radar/Radar.module.css
++++ b/node_modules/aoe_technology_radar/src/components/Radar/Radar.module.css
+@@ -72,3 +72,19 @@
+     padding: 150px 15px;
+   }
+ }
++
++/* Neopixl patch: with 5 quadrants, the 5th label sits under the chart, so
++   reserve a bottom row for the three bottom labels, and move the legend from
++   the bottom centre to the top centre on medium screens. */
++@media (min-width: 768px) {
++  .fiveQuadrants {
++    padding-bottom: 240px;
++  }
++}
++
++@media (min-width: 768px) and (max-width: 1200px) {
++  .fiveQuadrants > ul {
++    bottom: auto;
++    top: 40px;
++  }
++}
+diff --git a/node_modules/aoe_technology_radar/src/components/Radar/Radar.tsx b/node_modules/aoe_technology_radar/src/components/Radar/Radar.tsx
+index 091d953..00eaa12 100644
+--- a/node_modules/aoe_technology_radar/src/components/Radar/Radar.tsx
++++ b/node_modules/aoe_technology_radar/src/components/Radar/Radar.tsx
+@@ -81,7 +81,10 @@ export const Radar: FC<RadarProps> = ({
+   return (
+     <div
+       ref={radarRef}
+-      className={styles.radar}
++      className={cn(
++        styles.radar,
++        quadrants.length === 5 && styles.fiveQuadrants,
++      )}
+       onMouseMove={handleMouseMove}
+       onMouseLeave={handleMouseLeave}
+     >
+diff --git a/node_modules/aoe_technology_radar/src/lib/quadrantGeometry.ts b/node_modules/aoe_technology_radar/src/lib/quadrantGeometry.ts
+new file mode 100644
+index 0000000..0aa01f9
+--- /dev/null
++++ b/node_modules/aoe_technology_radar/src/lib/quadrantGeometry.ts
+@@ -0,0 +1,22 @@
++// Neopixl patch: support more than 4 quadrants.
++//
++// Angles are in degrees, clockwise from 12 o'clock. Each entry is the start
++// angle of the quadrant at that position (1-based), and each quadrant spans
++// 360 / count degrees. The 4-quadrant layout is AOE's original one.
++const startAnglesByCount: Record<number, number[]> = {
++  // top-left, top-right, bottom-left, bottom-right
++  4: [270, 0, 180, 90],
++  // top-left, top-right, bottom-left, bottom-right, bottom
++  5: [288, 0, 216, 72, 144],
++};
++
++export function getQuadrantSweep(count: number): number {
++  return 360 / count;
++}
++
++export function getQuadrantStartAngle(position: number, count: number): number {
++  const angles = startAnglesByCount[count];
++  if (angles) return angles[position - 1];
++  // Generic fallback: consecutive slices starting at 12 o'clock.
++  return (position - 1) * getQuadrantSweep(count);
++}

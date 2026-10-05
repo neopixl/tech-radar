@@ -44,6 +44,12 @@
       "title": "Tools",
       "description": "Tools to develop, manage or debug",
       "color": "#9399D2"
+    },
+    {
+      "id": "agentic",
+      "title": "Agentic AI",
+      "description": "AI agents, MCP servers and standards we use to design, build and manage projects",
+      "color": "#F2C94C"
     }
   ],
   "rings": [
@@ -98,7 +104,7 @@
     }
   },
   "chart": {
-    "size": 800,
+    "size": 900,
     "blipSize": 12
   },
   "social": [
