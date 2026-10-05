@@ -1,8 +1,8 @@
 diff --git a/node_modules/aoe_technology_radar/scripts/positioner.ts b/node_modules/aoe_technology_radar/scripts/positioner.ts
-index 63e0bf8..8596f65 100644
+index 63e0bf8..9bb8ffc 100644
 --- a/node_modules/aoe_technology_radar/scripts/positioner.ts
 +++ b/node_modules/aoe_technology_radar/scripts/positioner.ts
-@@ -1,11 +1,12 @@
+@@ -1,25 +1,36 @@
 +import {
 +  getQuadrantStartAngle,
 +  getQuadrantSweep,
@@ -18,7 +18,12 @@ index 63e0bf8..8596f65 100644
  export default class Positioner {
    private readonly centerRadius: number;
    private readonly minDistance: number = 20;
-@@ -14,12 +15,17 @@ export default class Positioner {
+   private readonly paddingRing: number = 15;
+-  private readonly paddingAngle: number = 10;
++  private readonly paddingAngle: number;
++  // Neopixl patch: AOE gives up after 150 random tries, which leaves
++  // overlapping blips in crowded rings. More tries pack rings much better.
++  private readonly maxTries: number = 1000;
    private positions: Record<string, Position[]> = {};
    private ringDimensions: Record<string, RingDimension> = {};
    private quadrantAngles: Record<string, number> = {};
@@ -27,6 +32,8 @@ index 63e0bf8..8596f65 100644
    constructor(size: number, quadrants: Quadrant[], rings: Ring[]) {
      this.centerRadius = size / 2;
 +    this.quadrantSweep = getQuadrantSweep(quadrants.length);
++    // Narrower slices lose too much room to a 10° gap on each side.
++    this.paddingAngle = quadrants.length === 4 ? 10 : 6;
  
      quadrants.forEach((quadrant) => {
 -      this.quadrantAngles[quadrant.id] = startAngles[quadrant.position - 1];
@@ -37,7 +44,7 @@ index 63e0bf8..8596f65 100644
      });
  
      rings.forEach((ring, index) => {
-@@ -54,7 +60,7 @@ export default class Positioner {
+@@ -54,7 +65,7 @@ export default class Positioner {
      const absoluteRadius = innerRadius + radiusFraction * ringWidth;
  
      const startAngle = this.quadrantAngles[quadrantId] + this.paddingAngle;
@@ -46,6 +53,19 @@ index 63e0bf8..8596f65 100644
      const absoluteAngle = startAngle + (endAngle - startAngle) * angleFraction;
      const angleInRadians = ((absoluteAngle - 90) * Math.PI) / 180;
  
+@@ -80,10 +91,10 @@ export default class Positioner {
+       tries++;
+     } while (
+       this.isOverlapping(position, this.positions[quadrantId]) &&
+-      tries < 150
++      tries < this.maxTries
+     );
+ 
+-    if (tries >= 150) {
++    if (tries >= this.maxTries) {
+       console.warn(
+         `Could not find a non-overlapping position for ${quadrantId} in ring ${ringId}`,
+       );
 diff --git a/node_modules/aoe_technology_radar/src/components/Radar/Chart.tsx b/node_modules/aoe_technology_radar/src/components/Radar/Chart.tsx
 index ebdfeb9..ddc650e 100644
 --- a/node_modules/aoe_technology_radar/src/components/Radar/Chart.tsx
